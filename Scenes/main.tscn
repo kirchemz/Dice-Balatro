@@ -230,6 +230,18 @@ theme_override_font_sizes/font_size = 256
 text = "Two of the same number"
 horizontal_alignment = 1
 
+[node name="Multiplier" type="Label" parent="Hand Requirements Page/Pair"]
+layout_mode = 0
+offset_left = 262.30743
+offset_top = 82.439445
+offset_right = 2580.3074
+offset_bottom = 342.43945
+scale = Vector2(0.5698517, 0.5698517)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 256
+text = "Mult: 2"
+horizontal_alignment = 1
+
 [node name="Three of a kind" type="Label" parent="Hand Requirements Page"]
 layout_mode = 0
 offset_left = 215.0
@@ -267,6 +279,18 @@ scale = Vector2(0.43506986, 0.43506986)
 theme_override_fonts/font = ExtResource("3_8gbba")
 theme_override_font_sizes/font_size = 316
 text = "Three of the same number"
+horizontal_alignment = 1
+
+[node name="Multiplier" type="Label" parent="Hand Requirements Page/Three of a kind"]
+layout_mode = 0
+offset_left = 965.3555
+offset_top = 94.642944
+offset_right = 3283.3555
+offset_bottom = 354.64294
+scale = Vector2(0.5698517, 0.5698517)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 256
+text = "Mult: 4"
 horizontal_alignment = 1
 
 [node name="Four of a kind" type="Label" parent="Hand Requirements Page"]
@@ -313,7 +337,19 @@ theme_override_font_sizes/font_size = 356
 text = "Four of the same number"
 horizontal_alignment = 1
 
-[node name="Four of a kind2" type="Label" parent="Hand Requirements Page"]
+[node name="Multiplier" type="Label" parent="Hand Requirements Page/Four of a kind"]
+layout_mode = 0
+offset_left = 861.24854
+offset_top = 113.5712
+offset_right = 3179.2485
+offset_bottom = 373.5712
+scale = Vector2(0.5451437, 0.5451437)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 256
+text = "Mult: 5"
+horizontal_alignment = 1
+
+[node name="Straight" type="Label" parent="Hand Requirements Page"]
 layout_mode = 0
 offset_left = 497.0
 offset_top = 401.0
@@ -325,32 +361,32 @@ theme_override_font_sizes/font_size = 361
 text = "Straight"
 horizontal_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Hand Requirements Page/Four of a kind2"]
+[node name="Sprite2D" type="Sprite2D" parent="Hand Requirements Page/Straight"]
 position = Vector2(-36.525818, 720.61584)
 scale = Vector2(2.89225, 2.89225)
 texture = ExtResource("8_6iyac")
 
-[node name="Sprite2D2" type="Sprite2D" parent="Hand Requirements Page/Four of a kind2"]
+[node name="Sprite2D2" type="Sprite2D" parent="Hand Requirements Page/Straight"]
 position = Vector2(333.07245, 720.61584)
 scale = Vector2(2.89225, 2.89225)
 texture = ExtResource("9_fdnlq")
 
-[node name="Sprite2D4" type="Sprite2D" parent="Hand Requirements Page/Four of a kind2"]
+[node name="Sprite2D4" type="Sprite2D" parent="Hand Requirements Page/Straight"]
 position = Vector2(709.3906, 720.61584)
 scale = Vector2(2.89225, 2.89225)
 texture = ExtResource("10_fdnlq")
 
-[node name="Sprite2D3" type="Sprite2D" parent="Hand Requirements Page/Four of a kind2"]
+[node name="Sprite2D3" type="Sprite2D" parent="Hand Requirements Page/Straight"]
 position = Vector2(1105.8688, 720.61584)
 scale = Vector2(2.89225, 2.89225)
 texture = ExtResource("10_jkdf5")
 
-[node name="Sprite2D5" type="Sprite2D" parent="Hand Requirements Page/Four of a kind2"]
+[node name="Sprite2D5" type="Sprite2D" parent="Hand Requirements Page/Straight"]
 position = Vector2(1485.89, 720.61584)
 scale = Vector2(2.89225, 2.89225)
 texture = ExtResource("12_jkdf5")
 
-[node name="Description" type="Label" parent="Hand Requirements Page/Four of a kind2"]
+[node name="Description" type="Label" parent="Hand Requirements Page/Straight"]
 layout_mode = 0
 offset_left = 66.24996
 offset_top = 293.3922
@@ -360,6 +396,18 @@ scale = Vector2(0.09545426, 0.09545426)
 theme_override_fonts/font = ExtResource("3_8gbba")
 theme_override_font_sizes/font_size = 3096
 text = "1-5 or 2-6"
+horizontal_alignment = 1
+
+[node name="Multiplier" type="Label" parent="Hand Requirements Page/Straight"]
+layout_mode = 0
+offset_left = 776.0701
+offset_top = 170.35681
+offset_right = 3094.07
+offset_bottom = 430.3568
+scale = Vector2(0.5698517, 0.5698517)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 256
+text = "Mult: 6"
 horizontal_alignment = 1
 
 [node name="Five of a kind" type="Label" parent="Hand Requirements Page"]
@@ -411,6 +459,18 @@ theme_override_font_sizes/font_size = 341
 text = "Five of the same number"
 horizontal_alignment = 1
 
+[node name="Multiplier" type="Label" parent="Hand Requirements Page/Five of a kind"]
+layout_mode = 0
+offset_left = 813.92725
+offset_top = 94.642944
+offset_right = 3131.9272
+offset_bottom = 354.64294
+scale = Vector2(0.5698517, 0.5698517)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 256
+text = "Mult: 8"
+horizontal_alignment = 1
+
 [node name="Two Pair" type="Label" parent="Hand Requirements Page"]
 layout_mode = 0
 offset_left = 385.0
@@ -454,6 +514,18 @@ texture = ExtResource("9_fdnlq")
 position = Vector2(1296.6047, 516.17194)
 scale = Vector2(3.7085369, 3.7085369)
 texture = ExtResource("9_fdnlq")
+
+[node name="Multiplier" type="Label" parent="Hand Requirements Page/Two Pair"]
+layout_mode = 0
+offset_left = 634.1061
+offset_top = 94.642944
+offset_right = 2952.106
+offset_bottom = 354.64294
+scale = Vector2(0.5698517, 0.5698517)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 256
+text = "Mult: 3"
+horizontal_alignment = 1
 
 [node name="Full House" type="Label" parent="Hand Requirements Page"]
 layout_mode = 0
@@ -503,6 +575,18 @@ texture = ExtResource("11_wsu2k")
 position = Vector2(1178.0015, 510.7177)
 scale = Vector2(2.4938467, 2.4938467)
 texture = ExtResource("11_wsu2k")
+
+[node name="Multiplier" type="Label" parent="Hand Requirements Page/Full House"]
+layout_mode = 0
+offset_left = 728.7488
+offset_top = 94.642944
+offset_right = 3046.7488
+offset_bottom = 354.64294
+scale = Vector2(0.5698517, 0.5698517)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 256
+text = "Mult: 5"
+horizontal_alignment = 1
 
 [node name="Flush" type="Label" parent="Hand Requirements Page"]
 layout_mode = 0
@@ -558,7 +642,19 @@ position = Vector2(1178.0015, 510.7177)
 scale = Vector2(2.4938467, 2.4938467)
 texture = ExtResource("10_fdnlq")
 
-[node name="Flush2" type="Label" parent="Hand Requirements Page"]
+[node name="Multiplier" type="Label" parent="Hand Requirements Page/Flush"]
+layout_mode = 0
+offset_left = 482.67776
+offset_top = 94.642944
+offset_right = 2800.6777
+offset_bottom = 354.64294
+scale = Vector2(0.5698517, 0.5698517)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 256
+text = "Mult: 8"
+horizontal_alignment = 1
+
+[node name="Straight Flush" type="Label" parent="Hand Requirements Page"]
 layout_mode = 0
 offset_left = 731.0
 offset_top = 323.0
@@ -570,7 +666,7 @@ theme_override_font_sizes/font_size = 256
 text = "Straight Flush"
 horizontal_alignment = 1
 
-[node name="Description" type="Label" parent="Hand Requirements Page/Flush2"]
+[node name="Description" type="Label" parent="Hand Requirements Page/Straight Flush"]
 layout_mode = 0
 offset_left = -94.6426
 offset_top = 227.14249
@@ -582,35 +678,47 @@ theme_override_font_sizes/font_size = 366
 text = "A Straight and a Flush"
 horizontal_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Hand Requirements Page/Flush2"]
+[node name="Sprite2D" type="Sprite2D" parent="Hand Requirements Page/Straight Flush"]
 modulate = Color(0.9999996, 0.28746706, 0.22376218, 1)
 position = Vector2(161.52733, 514.1993)
 scale = Vector2(2.4938467, 2.4938467)
 texture = ExtResource("8_6iyac")
 
-[node name="Sprite2D2" type="Sprite2D" parent="Hand Requirements Page/Flush2"]
+[node name="Sprite2D2" type="Sprite2D" parent="Hand Requirements Page/Straight Flush"]
 modulate = Color(1, 0.28627452, 0.22352941, 1)
 position = Vector2(418.64508, 516.17194)
 scale = Vector2(2.4938467, 2.4938467)
 texture = ExtResource("9_fdnlq")
 
-[node name="Sprite2D4" type="Sprite2D" parent="Hand Requirements Page/Flush2"]
+[node name="Sprite2D4" type="Sprite2D" parent="Hand Requirements Page/Straight Flush"]
 modulate = Color(1, 0.28627452, 0.22352941, 1)
 position = Vector2(680.7238, 516.17194)
 scale = Vector2(2.4938467, 2.4938467)
 texture = ExtResource("10_fdnlq")
 
-[node name="Sprite2D3" type="Sprite2D" parent="Hand Requirements Page/Flush2"]
+[node name="Sprite2D3" type="Sprite2D" parent="Hand Requirements Page/Straight Flush"]
 modulate = Color(0.9999996, 0.28746706, 0.22376218, 1)
 position = Vector2(934.32367, 514.1993)
 scale = Vector2(2.4938467, 2.4938467)
 texture = ExtResource("10_jkdf5")
 
-[node name="Sprite2D5" type="Sprite2D" parent="Hand Requirements Page/Flush2"]
+[node name="Sprite2D5" type="Sprite2D" parent="Hand Requirements Page/Straight Flush"]
 modulate = Color(1, 0.28627452, 0.22352941, 1)
 position = Vector2(1178.0015, 510.7177)
 scale = Vector2(2.4938467, 2.4938467)
 texture = ExtResource("12_jkdf5")
+
+[node name="Multiplier" type="Label" parent="Hand Requirements Page/Straight Flush"]
+layout_mode = 0
+offset_left = 993.74835
+offset_top = 94.642944
+offset_right = 3311.7483
+offset_bottom = 354.64294
+scale = Vector2(0.5698517, 0.5698517)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 256
+text = "Mult: 10"
+horizontal_alignment = 1
 
 [node name="Button" type="Button" parent="Hand Requirements Page"]
 layout_mode = 0

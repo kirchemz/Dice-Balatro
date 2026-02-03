@@ -132,7 +132,9 @@ func _process(_delta: float) -> void:
 		counts[d] = counts.get(d, 0) + 1
 	var groups = counts.values()
 	if dice_1.rolled_number != 0 and dice_1.rolled_number != 0 and dice_2.rolled_number != 0 and dice_3.rolled_number != 0 and dice_4.rolled_number != 0 and dice_5.rolled_number != 0:
-		if dice == [1, 2, 3, 4, 5] or dice == [2, 3, 4, 5, 6]:
+		if dice == [1, 2, 3, 4, 5]:
+			rolled_hand = "Straight"
+		if dice == [2, 3, 4, 5, 6]:
 			rolled_hand = "Straight"
 		if 5 in groups:
 			rolled_hand = "Five of a Kind"
