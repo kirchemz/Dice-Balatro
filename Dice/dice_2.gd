@@ -2,6 +2,8 @@ extends Node2D
 
 @onready var anim = $AnimatedSprite2D
 
+var sides : Array = [1, 2, 3, 4, 5, 6]
+
 var selected = false
 
 var rolled_number = 0
@@ -40,7 +42,7 @@ func roll():
 		rolled_number = 0
 		anim.play("Flip")
 		await get_tree().create_timer(1.2).timeout
-		rolled_number = randi_range(1, 6)
+		rolled_number = sides[randi() % sides.size()]
 
 
 func _on_button_pressed() -> void:

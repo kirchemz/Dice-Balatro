@@ -1,10 +1,10 @@
 extends Node2D
 
 @onready var dice_1 = $"Dice Area/Dice"
-@onready var dice_2 = $"Dice Area/Dice2"
-@onready var dice_3 = $"Dice Area/Dice3"
-@onready var dice_4 = $"Dice Area/Dice4"
-@onready var dice_5 = $"Dice Area/Dice5"
+@onready var dice_2 = $"Dice Area/Dice_2"
+@onready var dice_3 = $"Dice Area/Dice_3"
+@onready var dice_4 = $"Dice Area/Dice_4"
+@onready var dice_5 = $"Dice Area/Dice_5"
 
 var full_house = false
 var straight = false
@@ -94,22 +94,24 @@ func _process(_delta: float) -> void:
 		score_count = false
 	if pair:
 		multiplier_display = 2
-	if straight:
+	elif straight:
 		multiplier_display = 6
-	if full_house:
+	elif full_house:
 		multiplier_display = 5
-	if two_pair:
+	elif two_pair:
 		multiplier_display = 3
-	if three_of_a_kind:
+	elif three_of_a_kind:
 		multiplier_display = 4
-	if four_of_a_kind:
+	elif four_of_a_kind:
 		multiplier_display = 5
-	if five_of_a_kind:
+	elif five_of_a_kind:
 		multiplier_display = 8
-	if flush:
+	elif flush:
 		multiplier_display = 8
-	if straight_flush:
+	elif straight_flush:
 		multiplier_display = 10
+	else:
+		multiplier_display = 1
 	$"Scoring Area/Multiplier".text = "Multiplier:
 		" + str(multiplier_display)
 	$"Scoring Area/Roll Amount".text = "Roll Amount:
@@ -120,23 +122,23 @@ func _process(_delta: float) -> void:
 	if rolled_hand != null:
 		$"Scoring Area/Label".text = rolled_hand
 	var dice = [
-	dice_1.rolled_number,
-	dice_2.rolled_number,
-	dice_3.rolled_number,
-	dice_4.rolled_number,
-	dice_5.rolled_number
+	int(dice_1.rolled_number),
+	int(dice_2.rolled_number),
+	int(dice_3.rolled_number),
+	int(dice_4.rolled_number),
+	int(dice_5.rolled_number)
 	]
+	
 	dice.sort()
+	
 	var counts = {}
 	for d in dice:
 		counts[d] = counts.get(d, 0) + 1
 	var groups = counts.values()
 	if dice_1.rolled_number != 0 and dice_1.rolled_number != 0 and dice_2.rolled_number != 0 and dice_3.rolled_number != 0 and dice_4.rolled_number != 0 and dice_5.rolled_number != 0:
-		if dice == [1, 2, 3, 4, 5]:
+		if dice == [1,2,3,4,5] or dice == [2,3,4,5,6]:
 			rolled_hand = "Straight"
-		if dice == [2, 3, 4, 5, 6]:
-			rolled_hand = "Straight"
-		if 5 in groups:
+		elif 5 in groups:
 			rolled_hand = "Five of a Kind"
 		elif 4 in groups:
 			rolled_hand = "Four of a Kind"
@@ -152,10 +154,10 @@ func _process(_delta: float) -> void:
 			rolled_hand = "Hand Type"
 	if played_hand:
 		if score > Globals.goal - 1:
-			await get_tree().create_timer(2).timeout
-			Globals.goal += 20
+			Globals.money = snapped(score, 10) / 10
 			played_hand = false
-			get_tree().reload_current_scene()
+			$"Menu/Shop Button".visible = true
+			$"Menu/Next Level Button".visible = true
 		else:
 			await get_tree().create_timer(2).timeout
 			get_tree().change_scene_to_file("res://Scenes/game_over_screen.tscn")
@@ -180,8 +182,21 @@ func _on_hand_requirements_pressed() -> void:
 
 func _on_back_button_pressed() -> void:
 	$"Hand Requirements Page".visible = false
+	$"How To Play Page".visible = false
 
 
 func _on_button_2_pressed() -> void:
 	played_hand = true
 	score_count = true
+
+
+func _on_shop_button_pressed() -> void:
+	get_tree().change_scene_to_file("res://Scenes/shop.tscn")
+
+
+func _on_next_level_button_pressed() -> void:
+	get_tree().reload_current_scene()
+
+
+func _on_how_to_play_button_pressed() -> void:
+	$"How To Play Page".visible = true

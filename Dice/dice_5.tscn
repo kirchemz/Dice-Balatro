@@ -1,32 +1,32 @@
-[gd_scene load_steps=11 format=3 uid="uid://d325xc8rrurym"]
+[gd_scene load_steps=11 format=3 uid="uid://bet1yddodsm5d"]
 
-[ext_resource type="Texture2D" uid="uid://crecxlst27ebw" path="res://PixelDicePack/PixelDicePack/PixelDicePack.png" id="1_ju2fo"]
-[ext_resource type="Script" uid="uid://b5a07txbm52ra" path="res://dice.gd" id="1_m4jp2"]
+[ext_resource type="Script" uid="uid://wivt1vtm4apb" path="res://Dice/dice_5.gd" id="1_bns1u"]
+[ext_resource type="Texture2D" uid="uid://crecxlst27ebw" path="res://PixelDicePack/PixelDicePack/PixelDicePack.png" id="2_nyhg6"]
 
 [sub_resource type="CanvasTexture" id="CanvasTexture_m4jp2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_m4jp2"]
-atlas = ExtResource("1_ju2fo")
+atlas = ExtResource("2_nyhg6")
 region = Rect2(97, 1, 15, 17)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qu4n6"]
-atlas = ExtResource("1_ju2fo")
+atlas = ExtResource("2_nyhg6")
 region = Rect2(97, 18, 15, 17)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xak8u"]
-atlas = ExtResource("1_ju2fo")
+atlas = ExtResource("2_nyhg6")
 region = Rect2(97, 35, 15, 17)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8eu0n"]
-atlas = ExtResource("1_ju2fo")
+atlas = ExtResource("2_nyhg6")
 region = Rect2(97, 52, 15, 17)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0c8ac"]
-atlas = ExtResource("1_ju2fo")
+atlas = ExtResource("2_nyhg6")
 region = Rect2(97, 69, 15, 17)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_y4pxb"]
-atlas = ExtResource("1_ju2fo")
+atlas = ExtResource("2_nyhg6")
 region = Rect2(97, 86, 15, 17)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_1erj6"]
@@ -103,8 +103,8 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="Dice" type="Node2D"]
-script = ExtResource("1_m4jp2")
+[node name="Dice_5" type="Node2D"]
+script = ExtResource("1_bns1u")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 visible = false
@@ -127,5 +127,6 @@ offset_left = -8.0
 offset_top = -9.0
 offset_right = 8.0
 offset_bottom = 8.0
+metadata/_edit_use_anchors_ = true
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

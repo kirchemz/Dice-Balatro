@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://duvtdbm0cd17s"]
 
 [ext_resource type="FontFile" uid="uid://vb0qxwe8i6ko" path="res://Miscellaneous/pixel-game.regular.otf" id="1_0gua7"]
-[ext_resource type="Script" uid="uid://ddtqcpobdgf8s" path="res://Scenes/game_over_screen.gd" id="1_jb6in"]
+[ext_resource type="Script" uid="uid://ddtqcpobdgf8s" path="res://GD's/game_over_screen.gd" id="1_jb6in"]
 
 [node name="Game Over Screen" type="Node2D"]
 script = ExtResource("1_jb6in")

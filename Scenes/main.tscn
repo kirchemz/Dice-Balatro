@@ -1,8 +1,8 @@
-[gd_scene load_steps=14 format=3 uid="uid://c2um8j2311ntt"]
+[gd_scene load_steps=18 format=3 uid="uid://c2um8j2311ntt"]
 
 [ext_resource type="Script" uid="uid://bpvnldu72xgg7" path="res://GD's/main.gd" id="1_jjgbg"]
 [ext_resource type="Texture2D" uid="uid://3q6ywv3hghf4" path="res://Complete_UI_Essential_Pack_Free/Complete_UI_Essential_Pack_Free/01_Flat_Theme/Sprites/UI_Flat_FrameMarker03a.png" id="2_21xkr"]
-[ext_resource type="PackedScene" uid="uid://d325xc8rrurym" path="res://dice.tscn" id="2_bo1nx"]
+[ext_resource type="PackedScene" uid="uid://d325xc8rrurym" path="res://Dice/dice.tscn" id="2_bo1nx"]
 [ext_resource type="FontFile" uid="uid://vb0qxwe8i6ko" path="res://Miscellaneous/pixel-game.regular.otf" id="3_8gbba"]
 [ext_resource type="Texture2D" uid="uid://cysq0lf6x6mss" path="res://Complete_UI_Essential_Pack_Free/Complete_UI_Essential_Pack_Free/01_Flat_Theme/Sprites/UI_Flat_FrameSlot02b.png" id="4_jjvhh"]
 [ext_resource type="Texture2D" uid="uid://c8i2g45i000jt" path="res://Complete_UI_Essential_Pack_Free/Complete_UI_Essential_Pack_Free/01_Flat_Theme/Sprites/UI_Flat_Frame01a.png" id="5_kry3j"]
@@ -13,6 +13,10 @@
 [ext_resource type="Texture2D" uid="uid://ddewx11s3i6e6" path="res://Miscellaneous/Screenshot 2026-02-02 160741.png" id="10_jkdf5"]
 [ext_resource type="Texture2D" uid="uid://bpm277j6jwaba" path="res://Miscellaneous/Screenshot 2026-02-02 160805.png" id="11_wsu2k"]
 [ext_resource type="Texture2D" uid="uid://cm5ykkgknm828" path="res://Miscellaneous/Screenshot 2026-02-02 160757.png" id="12_jkdf5"]
+[ext_resource type="PackedScene" uid="uid://cb6dsytff0rmv" path="res://Dice/dice_2.tscn" id="14_h1bgf"]
+[ext_resource type="PackedScene" uid="uid://dbr7lfl5ymb8h" path="res://Dice/dice_3.tscn" id="15_b3802"]
+[ext_resource type="PackedScene" uid="uid://cmhbatelgu8nl" path="res://Dice/dice_4.tscn" id="16_fevyy"]
+[ext_resource type="PackedScene" uid="uid://bet1yddodsm5d" path="res://Dice/dice_5.tscn" id="17_hibaj"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_jjgbg")
@@ -27,26 +31,6 @@ offset_top = 102.96182
 offset_right = 1123.4951
 offset_bottom = 537.52124
 texture = ExtResource("2_21xkr")
-
-[node name="Dice" parent="Dice Area" instance=ExtResource("2_bo1nx")]
-position = Vector2(205, 243.77725)
-scale = Vector2(9.904789, 9.904789)
-
-[node name="Dice2" parent="Dice Area" instance=ExtResource("2_bo1nx")]
-position = Vector2(387, 243.77725)
-scale = Vector2(9.904789, 9.904789)
-
-[node name="Dice3" parent="Dice Area" instance=ExtResource("2_bo1nx")]
-position = Vector2(572, 243.77725)
-scale = Vector2(9.904789, 9.904789)
-
-[node name="Dice4" parent="Dice Area" instance=ExtResource("2_bo1nx")]
-position = Vector2(758, 243.77725)
-scale = Vector2(9.904789, 9.904789)
-
-[node name="Dice5" parent="Dice Area" instance=ExtResource("2_bo1nx")]
-position = Vector2(946, 243.77725)
-scale = Vector2(9.904789, 9.904789)
 
 [node name="Button" type="Button" parent="Dice Area"]
 offset_left = 462.0
@@ -78,6 +62,26 @@ theme_override_fonts/font = ExtResource("3_8gbba")
 theme_override_font_sizes/font_size = 321
 text = "ROLLS: 5"
 
+[node name="Dice" parent="Dice Area" instance=ExtResource("2_bo1nx")]
+position = Vector2(228.6358, 255.89041)
+scale = Vector2(10.652308, 10.652308)
+
+[node name="Dice_2" parent="Dice Area" instance=ExtResource("14_h1bgf")]
+position = Vector2(407.3048, 255.89041)
+scale = Vector2(10.652308, 10.652308)
+
+[node name="Dice_3" parent="Dice Area" instance=ExtResource("15_b3802")]
+position = Vector2(592.03046, 255.89041)
+scale = Vector2(10.652308, 10.652308)
+
+[node name="Dice_4" parent="Dice Area" instance=ExtResource("16_fevyy")]
+position = Vector2(775.2419, 255.89041)
+scale = Vector2(10.652308, 10.652308)
+
+[node name="Dice_5" parent="Dice Area" instance=ExtResource("17_hibaj")]
+position = Vector2(955.4251, 255.89041)
+scale = Vector2(10.652308, 10.652308)
+
 [node name="Menu" type="TextureRect" parent="."]
 offset_left = 7.0
 offset_top = 12.0
@@ -96,6 +100,42 @@ theme_override_fonts/font = ExtResource("3_8gbba")
 theme_override_font_sizes/font_size = 126
 text = "Hand
 Requirements"
+
+[node name="Shop Button" type="Button" parent="Menu"]
+visible = false
+layout_mode = 0
+offset_left = 224.0
+offset_top = 259.0
+offset_right = 1003.0
+offset_bottom = 724.0
+scale = Vector2(0.16332729, 0.16332729)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 451
+text = "SHOP"
+
+[node name="How to play button" type="Button" parent="Menu"]
+layout_mode = 0
+offset_left = 46.999985
+offset_top = 259.0
+offset_right = 1063.3643
+offset_bottom = 724.0
+scale = Vector2(0.16332729, 0.16332729)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 226
+text = "How
+to play"
+
+[node name="Next Level Button" type="Button" parent="Menu"]
+visible = false
+layout_mode = 0
+offset_left = 47.0
+offset_top = 353.0
+offset_right = 1913.0
+offset_bottom = 818.0
+scale = Vector2(0.16332729, 0.16332729)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 451
+text = "Next Level"
 
 [node name="Score" type="Label" parent="Menu"]
 layout_mode = 0
@@ -163,6 +203,16 @@ theme_override_font_sizes/font_size = 96
 text = "Roll Amount:
 "
 horizontal_alignment = 1
+
+[node name="Label" type="Label" parent="."]
+offset_left = 48.000004
+offset_top = 64.00001
+offset_right = 2102.0
+offset_bottom = 364.0
+scale = Vector2(0.26576945, 0.26576945)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 296
+text = "Game Title"
 
 [node name="Hand Requirements Page" type="Control" parent="."]
 visible = false
@@ -731,7 +781,74 @@ theme_override_fonts/font = ExtResource("3_8gbba")
 theme_override_font_sizes/font_size = 156
 text = "Back"
 
+[node name="How To Play Page" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Panel" type="Panel" parent="How To Play Page"]
+layout_mode = 0
+offset_left = 3.0517578e-05
+offset_right = 1151.0
+offset_bottom = 647.0
+
+[node name="TextureRect" type="TextureRect" parent="How To Play Page"]
+layout_mode = 0
+offset_left = 190.0
+offset_top = 46.0
+offset_right = 968.0
+offset_bottom = 626.0
+texture = ExtResource("7_d1ilt")
+
+[node name="Label" type="Label" parent="How To Play Page"]
+layout_mode = 0
+offset_left = 324.0
+offset_top = 89.0
+offset_right = 1516.0
+offset_bottom = 349.0
+scale = Vector2(0.42058372, 0.42058372)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 256
+text = "How To Play"
+
+[node name="Label2" type="Label" parent="How To Play Page"]
+layout_mode = 0
+offset_left = 258.0
+offset_top = 182.0
+offset_right = 6484.0
+offset_bottom = 3860.0
+scale = Vector2(0.10068657, 0.10068657)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 401
+text = "To start roll the dice. The numbers you
+roll determine your Roll amount. The
+Roll amount is multiplied by your
+multiplier to get your final score. Your
+multiplier is determined by what hand
+you played. To get the best hand possible
+you can click on the dice you would like
+to save. To beat the round get a higher
+score than your goal."
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="How To Play Page"]
+layout_mode = 0
+offset_left = 239.0
+offset_top = 516.0
+offset_right = 523.0
+offset_bottom = 682.0
+scale = Vector2(0.40649822, 0.40649822)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 156
+text = "Back"
+
 [connection signal="pressed" from="Dice Area/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Dice Area/Button2" to="." method="_on_button_2_pressed"]
 [connection signal="pressed" from="Menu/Hand Requirements" to="." method="_on_hand_requirements_pressed"]
+[connection signal="pressed" from="Menu/Shop Button" to="." method="_on_shop_button_pressed"]
+[connection signal="pressed" from="Menu/How to play button" to="." method="_on_how_to_play_button_pressed"]
+[connection signal="pressed" from="Menu/Next Level Button" to="." method="_on_next_level_button_pressed"]
 [connection signal="pressed" from="Hand Requirements Page/Button" to="." method="_on_back_button_pressed"]
+[connection signal="pressed" from="How To Play Page/Button" to="." method="_on_back_button_pressed"]

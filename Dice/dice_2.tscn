@@ -1,0 +1,132 @@
+[gd_scene load_steps=11 format=3 uid="uid://cb6dsytff0rmv"]
+
+[ext_resource type="Script" uid="uid://b6mv15s3vb0of" path="res://Dice/dice_2.gd" id="1_5ga8o"]
+[ext_resource type="Texture2D" uid="uid://crecxlst27ebw" path="res://PixelDicePack/PixelDicePack/PixelDicePack.png" id="2_o4aqy"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_m4jp2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m4jp2"]
+atlas = ExtResource("2_o4aqy")
+region = Rect2(97, 1, 15, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qu4n6"]
+atlas = ExtResource("2_o4aqy")
+region = Rect2(97, 18, 15, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xak8u"]
+atlas = ExtResource("2_o4aqy")
+region = Rect2(97, 35, 15, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8eu0n"]
+atlas = ExtResource("2_o4aqy")
+region = Rect2(97, 52, 15, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0c8ac"]
+atlas = ExtResource("2_o4aqy")
+region = Rect2(97, 69, 15, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y4pxb"]
+atlas = ExtResource("2_o4aqy")
+region = Rect2(97, 86, 15, 17)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1erj6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m4jp2")
+}],
+"loop": true,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qu4n6")
+}],
+"loop": true,
+"name": &"2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xak8u")
+}],
+"loop": true,
+"name": &"3",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8eu0n")
+}],
+"loop": true,
+"name": &"4",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0c8ac")
+}],
+"loop": true,
+"name": &"5",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y4pxb")
+}],
+"loop": true,
+"name": &"6",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m4jp2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qu4n6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xak8u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8eu0n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0c8ac")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y4pxb")
+}],
+"loop": true,
+"name": &"Flip",
+"speed": 5.0
+}]
+
+[node name="Dice_2" type="Node2D"]
+script = ExtResource("1_5ga8o")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+visible = false
+modulate = Color(0, 1, 0, 1)
+offset_left = -8.0
+offset_top = -9.0
+offset_right = 8.0
+offset_bottom = 7.5
+texture = SubResource("CanvasTexture_m4jp2")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -0.25)
+scale = Vector2(1, 0.9705882)
+sprite_frames = SubResource("SpriteFrames_1erj6")
+animation = &"1"
+
+[node name="Button" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+offset_left = -8.0
+offset_top = -9.0
+offset_right = 8.0
+offset_bottom = 8.0
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
