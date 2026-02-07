@@ -746,33 +746,39 @@ func _on_button_pressed() -> void:
 	if Globals.money >= Globals.Ones_price:
 		Globals.money -= Globals.Ones_price
 		Globals.Ones += 1
+		Globals.total_Ones += 1
 
 
 func _on_button_2_pressed() -> void:
 	if Globals.money >= Globals.Twos_price:
 		Globals.money -= Globals.Twos_price
 		Globals.Twos += 1
+		Globals.total_Twos += 1
 
 
 func _on_button_3_pressed() -> void:
 	if Globals.money >= Globals.Threes_price:
 		Globals.money -= Globals.Threes_price
 		Globals.Threes += 1
+		Globals.total_Threes += 1
 
 
 func _on_button_4_pressed() -> void:
 	if Globals.money >= Globals.Fours_price:
 		Globals.money -= Globals.Fours_price
 		Globals.Fours += 1
+		Globals.total_Fours += 1
 
 
 func _on_button_5_pressed() -> void:
 	if Globals.money >= Globals.Fives_price:
 		Globals.money -= Globals.Fives_price
 		Globals.Fives += 1
+		Globals.total_Fives += 1
 
 
 func _on_button_6_pressed() -> void:
 	if Globals.money >= Globals.Sixes_price:
 		Globals.money -= Globals.Sixes_price
 		Globals.Sixes += 1
+		Globals.total_Sixes += 1
