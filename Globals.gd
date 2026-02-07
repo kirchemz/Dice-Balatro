@@ -34,24 +34,24 @@ func _process(delta: float) -> void:
 	if Ones == 0:
 		Ones_price = 1
 	else:
-		Ones_price = Ones + 2
+		Ones_price = total_Ones * 3
 	if Twos == 0:
 		Twos_price = 1
 	else:
-		Twos_price = Twos + 3
+		Twos_price = total_Twos * 4
 	if Threes == 0:
 		Threes_price = 1
 	else:
-		Threes_price = Threes + 4
+		Threes_price = total_Threes * 5
 	if Fours == 0:
 		Fours_price = 1
 	else:
-		Fours_price = Fours + 5
+		Fours_price = total_Fours * 6
 	if Fives == 0:
 		Fives_price = 1
 	else:
-		Fives_price = Fives + 6
+		Fives_price = total_Fives * 7
 	if Sixes == 0:
 		Sixes_price = 1
 	else:
-		Sixes_price = Sixes + 7
+		Sixes_price = total_Sixes * 8
