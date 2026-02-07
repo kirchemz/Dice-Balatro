@@ -2,7 +2,7 @@ extends Node2D
 
 @onready var anim = $AnimatedSprite2D
 
-var sides : Array = [1, 2, 3, 4, 5, 6]
+var sides = Globals.dice_two_sides
 
 var selected = false
 

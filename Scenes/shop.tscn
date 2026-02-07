@@ -51,24 +51,119 @@ offset_right = 1150.0
 offset_bottom = 649.0
 texture = ExtResource("1_2shtd")
 
-[node name="Dice" type="TextureRect" parent="Shop Area"]
+[node name="TextureRect" type="TextureRect" parent="Shop Area"]
 layout_mode = 0
-offset_left = 47.0
-offset_top = 59.0
-offset_right = 87.0
-offset_bottom = 99.0
-scale = Vector2(1.2348787, 1.2348787)
+offset_left = 83.0
+offset_top = 69.0
+offset_right = 169.0
+offset_bottom = 155.0
+texture = ExtResource("5_ow1eo")
 
-[node name="Button" type="Button" parent="Shop Area/Dice"]
+[node name="Button" type="Button" parent="Shop Area"]
 layout_mode = 0
-offset_left = -10.527349
-offset_top = 93.93634
-offset_right = 436.47266
-offset_bottom = 426.93634
-scale = Vector2(0.23220551, 0.17455603)
+offset_left = 54.0
+offset_top = 165.0
+offset_right = 886.0
+offset_bottom = 428.0
+scale = Vector2(0.18074971, 0.18761785)
 theme_override_fonts/font = ExtResource("3_io27d")
-theme_override_font_sizes/font_size = 321
-text = "BUY"
+theme_override_font_sizes/font_size = 251
+text = "Buy $999"
+
+[node name="TextureRect2" type="TextureRect" parent="Shop Area"]
+layout_mode = 0
+offset_left = 259.0
+offset_top = 69.0
+offset_right = 345.0
+offset_bottom = 155.0
+texture = ExtResource("6_k6pkm")
+
+[node name="Button2" type="Button" parent="Shop Area"]
+layout_mode = 0
+offset_left = 230.0
+offset_top = 165.0
+offset_right = 1062.0
+offset_bottom = 428.0
+scale = Vector2(0.18074971, 0.18761785)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 251
+text = "Buy $999"
+
+[node name="TextureRect3" type="TextureRect" parent="Shop Area"]
+layout_mode = 0
+offset_left = 435.0
+offset_top = 69.0
+offset_right = 521.0
+offset_bottom = 155.0
+texture = ExtResource("7_1sjcd")
+
+[node name="Button3" type="Button" parent="Shop Area"]
+layout_mode = 0
+offset_left = 406.0
+offset_top = 165.0
+offset_right = 1194.0
+offset_bottom = 428.0
+scale = Vector2(0.18074971, 0.18761785)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 251
+text = "Buy $999"
+
+[node name="TextureRect4" type="TextureRect" parent="Shop Area"]
+layout_mode = 0
+offset_left = 614.0
+offset_top = 69.0
+offset_right = 700.0
+offset_bottom = 155.0
+texture = ExtResource("8_1cyt5")
+
+[node name="Button4" type="Button" parent="Shop Area"]
+layout_mode = 0
+offset_left = 583.0
+offset_top = 165.0
+offset_right = 1415.0
+offset_bottom = 428.0
+scale = Vector2(0.18074971, 0.18761785)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 251
+text = "Buy $999"
+
+[node name="TextureRect5" type="TextureRect" parent="Shop Area"]
+layout_mode = 0
+offset_left = 83.0
+offset_top = 252.0
+offset_right = 169.0
+offset_bottom = 338.0
+texture = ExtResource("9_0vsm1")
+
+[node name="Button5" type="Button" parent="Shop Area"]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 348.0
+offset_right = 886.0
+offset_bottom = 611.0
+scale = Vector2(0.18074971, 0.18761785)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 251
+text = "Buy $999"
+
+[node name="TextureRect6" type="TextureRect" parent="Shop Area"]
+layout_mode = 0
+offset_left = 259.0
+offset_top = 252.0
+offset_right = 345.0
+offset_bottom = 338.0
+texture = ExtResource("10_3568l")
+
+[node name="Button6" type="Button" parent="Shop Area"]
+layout_mode = 0
+offset_left = 230.0
+offset_top = 348.0
+offset_right = 1062.0
+offset_bottom = 611.0
+scale = Vector2(0.18074971, 0.18761785)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 251
+text = "Buy $999"
 
 [node name="Menu" type="TextureRect" parent="."]
 offset_left = -2.0
@@ -91,9 +186,9 @@ horizontal_alignment = 1
 
 [node name="SHOP Label" type="Label" parent="Menu"]
 layout_mode = 0
-offset_left = -446.6798
+offset_left = 46.71158
 offset_top = 57.0
-offset_right = 471.3202
+offset_right = 444.58255
 offset_bottom = 276.0
 scale = Vector2(1.9224893, 0.5997209)
 theme_override_fonts/font = ExtResource("3_io27d")
@@ -748,9 +843,9 @@ text = "Back"
 
 [node name="Dice1 Button" type="Button" parent="Dice Customization Page"]
 layout_mode = 0
-offset_left = 234.0
+offset_left = 219.0
 offset_top = 228.0
-offset_right = 959.0
+offset_right = 944.0
 offset_bottom = 601.0
 scale = Vector2(0.16371956, 0.16371956)
 theme_override_fonts/font = ExtResource("3_io27d")
@@ -759,9 +854,9 @@ text = "Dice 1"
 
 [node name="Dice2 Button" type="Button" parent="Dice Customization Page"]
 layout_mode = 0
-offset_left = 514.0
+offset_left = 356.0
 offset_top = 228.0
-offset_right = 1239.0
+offset_right = 1125.0
 offset_bottom = 601.0
 scale = Vector2(0.16371956, 0.16371956)
 theme_override_fonts/font = ExtResource("3_io27d")
@@ -770,9 +865,9 @@ text = "Dice 2"
 
 [node name="Dice3 Button" type="Button" parent="Dice Customization Page"]
 layout_mode = 0
-offset_left = 773.0
+offset_left = 501.0
 offset_top = 228.0
-offset_right = 1498.0
+offset_right = 1270.0
 offset_bottom = 601.0
 scale = Vector2(0.16371956, 0.16371956)
 theme_override_fonts/font = ExtResource("3_io27d")
@@ -781,10 +876,10 @@ text = "Dice 3"
 
 [node name="Dice4 Button" type="Button" parent="Dice Customization Page"]
 layout_mode = 0
-offset_left = 375.0
-offset_top = 325.0
-offset_right = 1100.0
-offset_bottom = 698.0
+offset_left = 648.0
+offset_top = 228.0
+offset_right = 1428.0
+offset_bottom = 601.0
 scale = Vector2(0.16371956, 0.16371956)
 theme_override_fonts/font = ExtResource("3_io27d")
 theme_override_font_sizes/font_size = 361
@@ -792,10 +887,10 @@ text = "Dice 4"
 
 [node name="Dice5 Button" type="Button" parent="Dice Customization Page"]
 layout_mode = 0
-offset_left = 643.0
-offset_top = 325.0
-offset_right = 1368.0
-offset_bottom = 698.0
+offset_left = 795.0
+offset_top = 228.0
+offset_right = 1564.0
+offset_bottom = 601.0
 scale = Vector2(0.16371956, 0.16371956)
 theme_override_fonts/font = ExtResource("3_io27d")
 theme_override_font_sizes/font_size = 361
@@ -1639,13 +1734,1403 @@ theme_override_fonts/font = ExtResource("3_io27d")
 theme_override_font_sizes/font_size = 156
 text = "Back"
 
-[connection signal="pressed" from="Shop Area/Dice/Button" to="." method="_on_button_pressed"]
+[node name="Dice 3" type="Label" parent="Dice Customization Page"]
+visible = false
+layout_mode = 0
+offset_left = 452.99997
+offset_top = 397.0
+offset_right = 1190.0
+offset_bottom = 773.0
+scale = Vector2(0.28516617, 0.28516617)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 371
+text = "DICE 3"
+
+[node name="Side_1" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 3"]
+position = Vector2(-365.15918, -463.34766)
+scale = Vector2(3.1096573, 3.1096573)
+sprite_frames = SubResource("SpriteFrames_k6pkm")
+animation = &"Numbers"
+
+[node name="Dice_1_1_1" type="Button" parent="Dice Customization Page/Dice 3/Side_1"]
+offset_left = -70.89661
+offset_top = -52.853607
+offset_right = 20.103394
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "1"
+
+[node name="Dice_1_1_2" type="Button" parent="Dice Customization Page/Dice 3/Side_1"]
+offset_left = -73.15198
+offset_top = -20.150604
+offset_right = 50.848022
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "2"
+
+[node name="Dice_1_1_3" type="Button" parent="Dice Customization Page/Dice 3/Side_1"]
+offset_left = -73.15198
+offset_top = 12.552368
+offset_right = 50.848022
+offset_bottom = 290.55237
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "3"
+
+[node name="Dice_1_1_4" type="Button" parent="Dice Customization Page/Dice 3/Side_1"]
+offset_left = 57.659973
+offset_top = -52.853607
+offset_right = 189.65997
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "4"
+
+[node name="Dice_1_1_5" type="Button" parent="Dice Customization Page/Dice 3/Side_1"]
+offset_left = 57.659973
+offset_top = -20.150604
+offset_right = 189.65997
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "5"
+
+[node name="Dice_1_1_6" type="Button" parent="Dice Customization Page/Dice 3/Side_1"]
+offset_left = 57.659973
+offset_top = 13.680084
+offset_right = 189.65997
+offset_bottom = 291.68008
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "6"
+
+[node name="Side_2" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 3"]
+position = Vector2(413.79395, -463.34766)
+scale = Vector2(3.1096573, 3.1096573)
+sprite_frames = SubResource("SpriteFrames_k6pkm")
+animation = &"Numbers"
+
+[node name="Dice_1_2_1" type="Button" parent="Dice Customization Page/Dice 3/Side_2"]
+offset_left = -70.89661
+offset_top = -52.853607
+offset_right = 20.103394
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "1"
+
+[node name="Dice_1_2_2" type="Button" parent="Dice Customization Page/Dice 3/Side_2"]
+offset_left = -73.15198
+offset_top = -20.150604
+offset_right = 50.848022
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "2"
+
+[node name="Dice_1_2_3" type="Button" parent="Dice Customization Page/Dice 3/Side_2"]
+offset_left = -73.15198
+offset_top = 12.552368
+offset_right = 50.848022
+offset_bottom = 290.55237
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "3"
+
+[node name="Dice_1_2_4" type="Button" parent="Dice Customization Page/Dice 3/Side_2"]
+offset_left = 57.659973
+offset_top = -52.853607
+offset_right = 189.65997
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "4"
+
+[node name="Dice_1_2_5" type="Button" parent="Dice Customization Page/Dice 3/Side_2"]
+offset_left = 57.659973
+offset_top = -20.150604
+offset_right = 189.65997
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "5"
+
+[node name="Dice_1_2_6" type="Button" parent="Dice Customization Page/Dice 3/Side_2"]
+offset_left = 57.659973
+offset_top = 13.680084
+offset_right = 189.65997
+offset_bottom = 291.68008
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "6"
+
+[node name="Side_3" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 3"]
+position = Vector2(1160.7269, -463.34766)
+scale = Vector2(3.1096573, 3.1096573)
+sprite_frames = SubResource("SpriteFrames_k6pkm")
+animation = &"Numbers"
+
+[node name="Dice_1_3_1" type="Button" parent="Dice Customization Page/Dice 3/Side_3"]
+offset_left = -70.89661
+offset_top = -52.853607
+offset_right = 20.103394
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "1"
+
+[node name="Dice_1_3_2" type="Button" parent="Dice Customization Page/Dice 3/Side_3"]
+offset_left = -73.15198
+offset_top = -20.150604
+offset_right = 50.848022
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "2"
+
+[node name="Dice_1_3_3" type="Button" parent="Dice Customization Page/Dice 3/Side_3"]
+offset_left = -73.15198
+offset_top = 12.552368
+offset_right = 50.848022
+offset_bottom = 290.55237
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "3"
+
+[node name="Dice_1_3_4" type="Button" parent="Dice Customization Page/Dice 3/Side_3"]
+offset_left = 57.659973
+offset_top = -52.853622
+offset_right = 189.65997
+offset_bottom = 225.14638
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "4"
+
+[node name="Dice_1_3_5" type="Button" parent="Dice Customization Page/Dice 3/Side_3"]
+offset_left = 57.659973
+offset_top = -20.150604
+offset_right = 189.65997
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "5"
+
+[node name="Dice_1_3_6" type="Button" parent="Dice Customization Page/Dice 3/Side_3"]
+offset_left = 57.659973
+offset_top = 13.680084
+offset_right = 189.65997
+offset_bottom = 291.68008
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "6"
+
+[node name="Side_4" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 3"]
+position = Vector2(-368.2063, -115.72211)
+scale = Vector2(3.1096573, 3.1096573)
+sprite_frames = SubResource("SpriteFrames_k6pkm")
+animation = &"Numbers"
+
+[node name="Dice_1_4_1" type="Button" parent="Dice Customization Page/Dice 3/Side_4"]
+offset_left = -70.89661
+offset_top = -52.853607
+offset_right = 20.103394
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "1"
+
+[node name="Dice_1_4_2" type="Button" parent="Dice Customization Page/Dice 3/Side_4"]
+offset_left = -73.15198
+offset_top = -20.150604
+offset_right = 50.848022
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "2"
+
+[node name="Dice_1_4_3" type="Button" parent="Dice Customization Page/Dice 3/Side_4"]
+offset_left = -73.15198
+offset_top = 12.552368
+offset_right = 50.848022
+offset_bottom = 290.55237
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "3"
+
+[node name="Dice_1_4_4" type="Button" parent="Dice Customization Page/Dice 3/Side_4"]
+offset_left = 57.659973
+offset_top = -52.853607
+offset_right = 189.65997
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "4"
+
+[node name="Dice_1_4_5" type="Button" parent="Dice Customization Page/Dice 3/Side_4"]
+offset_left = 57.659973
+offset_top = -20.150604
+offset_right = 189.65997
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "5"
+
+[node name="Dice_1_4_6" type="Button" parent="Dice Customization Page/Dice 3/Side_4"]
+offset_left = 57.659973
+offset_top = 13.680084
+offset_right = 189.65997
+offset_bottom = 291.68008
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "6"
+
+[node name="Side_5" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 3"]
+position = Vector2(410.28717, -115.72211)
+scale = Vector2(3.1096573, 3.1096573)
+sprite_frames = SubResource("SpriteFrames_k6pkm")
+animation = &"Numbers"
+
+[node name="Dice_1_5_1" type="Button" parent="Dice Customization Page/Dice 3/Side_5"]
+offset_left = -70.89661
+offset_top = -52.853607
+offset_right = 20.103394
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "1"
+
+[node name="Dice_1_5_2" type="Button" parent="Dice Customization Page/Dice 3/Side_5"]
+offset_left = -73.15198
+offset_top = -20.150604
+offset_right = 50.848022
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "2"
+
+[node name="Dice_1_5_3" type="Button" parent="Dice Customization Page/Dice 3/Side_5"]
+offset_left = -73.15198
+offset_top = 12.552368
+offset_right = 50.848022
+offset_bottom = 290.55237
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "3"
+
+[node name="Dice_1_5_4" type="Button" parent="Dice Customization Page/Dice 3/Side_5"]
+offset_left = 57.659973
+offset_top = -52.853607
+offset_right = 189.65997
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "4"
+
+[node name="Dice_1_5_5" type="Button" parent="Dice Customization Page/Dice 3/Side_5"]
+offset_left = 57.659973
+offset_top = -20.150604
+offset_right = 189.65997
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "5"
+
+[node name="Dice_1_5_6" type="Button" parent="Dice Customization Page/Dice 3/Side_5"]
+offset_left = 57.659973
+offset_top = 13.680084
+offset_right = 189.65997
+offset_bottom = 291.68008
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "6"
+
+[node name="Side_6" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 3"]
+position = Vector2(1160.7268, -115.72211)
+scale = Vector2(3.1096573, 3.1096573)
+sprite_frames = SubResource("SpriteFrames_k6pkm")
+animation = &"Numbers"
+
+[node name="Dice_1_6_1" type="Button" parent="Dice Customization Page/Dice 3/Side_6"]
+offset_left = -70.89661
+offset_top = -52.853607
+offset_right = 20.103394
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "1"
+
+[node name="Dice_1_6_2" type="Button" parent="Dice Customization Page/Dice 3/Side_6"]
+offset_left = -73.15198
+offset_top = -20.150604
+offset_right = 50.848022
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "2"
+
+[node name="Dice_1_6_3" type="Button" parent="Dice Customization Page/Dice 3/Side_6"]
+offset_left = -73.15198
+offset_top = 12.552368
+offset_right = 50.848022
+offset_bottom = 290.55237
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "3"
+
+[node name="Dice_1_6_4" type="Button" parent="Dice Customization Page/Dice 3/Side_6"]
+offset_left = 57.659973
+offset_top = -52.853607
+offset_right = 189.65997
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "4"
+
+[node name="Dice_1_6_5" type="Button" parent="Dice Customization Page/Dice 3/Side_6"]
+offset_left = 57.659973
+offset_top = -20.150604
+offset_right = 189.65997
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "5"
+
+[node name="Dice_1_6_6" type="Button" parent="Dice Customization Page/Dice 3/Side_6"]
+offset_left = 57.659973
+offset_top = 13.680084
+offset_right = 189.65997
+offset_bottom = 291.68008
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "6"
+
+[node name="Dice 3 Back Button" type="Button" parent="Dice Customization Page/Dice 3"]
+layout_mode = 0
+offset_left = -750.4395
+offset_top = 73.6413
+offset_right = -466.4395
+offset_bottom = 239.6413
+scale = Vector2(1.4400274, 1.4400274)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 156
+text = "Back"
+
+[node name="Dice 4" type="Label" parent="Dice Customization Page"]
+visible = false
+layout_mode = 0
+offset_left = 452.99997
+offset_top = 397.0
+offset_right = 1190.0
+offset_bottom = 773.0
+scale = Vector2(0.28516617, 0.28516617)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 371
+text = "DICE 4"
+
+[node name="Side_1" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 4"]
+position = Vector2(-365.15918, -463.34766)
+scale = Vector2(3.1096573, 3.1096573)
+sprite_frames = SubResource("SpriteFrames_k6pkm")
+animation = &"Numbers"
+
+[node name="Dice_1_1_1" type="Button" parent="Dice Customization Page/Dice 4/Side_1"]
+offset_left = -70.89661
+offset_top = -52.853607
+offset_right = 20.103394
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "1"
+
+[node name="Dice_1_1_2" type="Button" parent="Dice Customization Page/Dice 4/Side_1"]
+offset_left = -73.15198
+offset_top = -20.150604
+offset_right = 50.848022
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "2"
+
+[node name="Dice_1_1_3" type="Button" parent="Dice Customization Page/Dice 4/Side_1"]
+offset_left = -73.15198
+offset_top = 12.552368
+offset_right = 50.848022
+offset_bottom = 290.55237
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "3"
+
+[node name="Dice_1_1_4" type="Button" parent="Dice Customization Page/Dice 4/Side_1"]
+offset_left = 57.659973
+offset_top = -52.853607
+offset_right = 189.65997
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "4"
+
+[node name="Dice_1_1_5" type="Button" parent="Dice Customization Page/Dice 4/Side_1"]
+offset_left = 57.659973
+offset_top = -20.150604
+offset_right = 189.65997
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "5"
+
+[node name="Dice_1_1_6" type="Button" parent="Dice Customization Page/Dice 4/Side_1"]
+offset_left = 57.659973
+offset_top = 13.680084
+offset_right = 189.65997
+offset_bottom = 291.68008
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "6"
+
+[node name="Side_2" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 4"]
+position = Vector2(413.79395, -463.34766)
+scale = Vector2(3.1096573, 3.1096573)
+sprite_frames = SubResource("SpriteFrames_k6pkm")
+animation = &"Numbers"
+
+[node name="Dice_1_2_1" type="Button" parent="Dice Customization Page/Dice 4/Side_2"]
+offset_left = -70.89661
+offset_top = -52.853607
+offset_right = 20.103394
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "1"
+
+[node name="Dice_1_2_2" type="Button" parent="Dice Customization Page/Dice 4/Side_2"]
+offset_left = -73.15198
+offset_top = -20.150604
+offset_right = 50.848022
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "2"
+
+[node name="Dice_1_2_3" type="Button" parent="Dice Customization Page/Dice 4/Side_2"]
+offset_left = -73.15198
+offset_top = 12.552368
+offset_right = 50.848022
+offset_bottom = 290.55237
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "3"
+
+[node name="Dice_1_2_4" type="Button" parent="Dice Customization Page/Dice 4/Side_2"]
+offset_left = 57.659973
+offset_top = -52.853607
+offset_right = 189.65997
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "4"
+
+[node name="Dice_1_2_5" type="Button" parent="Dice Customization Page/Dice 4/Side_2"]
+offset_left = 57.659973
+offset_top = -20.150604
+offset_right = 189.65997
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "5"
+
+[node name="Dice_1_2_6" type="Button" parent="Dice Customization Page/Dice 4/Side_2"]
+offset_left = 57.659973
+offset_top = 13.680084
+offset_right = 189.65997
+offset_bottom = 291.68008
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "6"
+
+[node name="Side_3" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 4"]
+position = Vector2(1160.7269, -463.34766)
+scale = Vector2(3.1096573, 3.1096573)
+sprite_frames = SubResource("SpriteFrames_k6pkm")
+animation = &"Numbers"
+
+[node name="Dice_1_3_1" type="Button" parent="Dice Customization Page/Dice 4/Side_3"]
+offset_left = -70.89661
+offset_top = -52.853607
+offset_right = 20.103394
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "1"
+
+[node name="Dice_1_3_2" type="Button" parent="Dice Customization Page/Dice 4/Side_3"]
+offset_left = -73.15198
+offset_top = -20.150604
+offset_right = 50.848022
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "2"
+
+[node name="Dice_1_3_3" type="Button" parent="Dice Customization Page/Dice 4/Side_3"]
+offset_left = -73.15198
+offset_top = 12.552368
+offset_right = 50.848022
+offset_bottom = 290.55237
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "3"
+
+[node name="Dice_1_3_4" type="Button" parent="Dice Customization Page/Dice 4/Side_3"]
+offset_left = 57.659973
+offset_top = -52.853622
+offset_right = 189.65997
+offset_bottom = 225.14638
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "4"
+
+[node name="Dice_1_3_5" type="Button" parent="Dice Customization Page/Dice 4/Side_3"]
+offset_left = 57.659973
+offset_top = -20.150604
+offset_right = 189.65997
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "5"
+
+[node name="Dice_1_3_6" type="Button" parent="Dice Customization Page/Dice 4/Side_3"]
+offset_left = 57.659973
+offset_top = 13.680084
+offset_right = 189.65997
+offset_bottom = 291.68008
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "6"
+
+[node name="Side_4" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 4"]
+position = Vector2(-368.2063, -115.72211)
+scale = Vector2(3.1096573, 3.1096573)
+sprite_frames = SubResource("SpriteFrames_k6pkm")
+animation = &"Numbers"
+
+[node name="Dice_1_4_1" type="Button" parent="Dice Customization Page/Dice 4/Side_4"]
+offset_left = -70.89661
+offset_top = -52.853607
+offset_right = 20.103394
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "1"
+
+[node name="Dice_1_4_2" type="Button" parent="Dice Customization Page/Dice 4/Side_4"]
+offset_left = -73.15198
+offset_top = -20.150604
+offset_right = 50.848022
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "2"
+
+[node name="Dice_1_4_3" type="Button" parent="Dice Customization Page/Dice 4/Side_4"]
+offset_left = -73.15198
+offset_top = 12.552368
+offset_right = 50.848022
+offset_bottom = 290.55237
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "3"
+
+[node name="Dice_1_4_4" type="Button" parent="Dice Customization Page/Dice 4/Side_4"]
+offset_left = 57.659973
+offset_top = -52.853607
+offset_right = 189.65997
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "4"
+
+[node name="Dice_1_4_5" type="Button" parent="Dice Customization Page/Dice 4/Side_4"]
+offset_left = 57.659973
+offset_top = -20.150604
+offset_right = 189.65997
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "5"
+
+[node name="Dice_1_4_6" type="Button" parent="Dice Customization Page/Dice 4/Side_4"]
+offset_left = 57.659973
+offset_top = 13.680084
+offset_right = 189.65997
+offset_bottom = 291.68008
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "6"
+
+[node name="Side_5" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 4"]
+position = Vector2(410.28717, -115.72211)
+scale = Vector2(3.1096573, 3.1096573)
+sprite_frames = SubResource("SpriteFrames_k6pkm")
+animation = &"Numbers"
+
+[node name="Dice_1_5_1" type="Button" parent="Dice Customization Page/Dice 4/Side_5"]
+offset_left = -70.89661
+offset_top = -52.853607
+offset_right = 20.103394
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "1"
+
+[node name="Dice_1_5_2" type="Button" parent="Dice Customization Page/Dice 4/Side_5"]
+offset_left = -73.15198
+offset_top = -20.150604
+offset_right = 50.848022
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "2"
+
+[node name="Dice_1_5_3" type="Button" parent="Dice Customization Page/Dice 4/Side_5"]
+offset_left = -73.15198
+offset_top = 12.552368
+offset_right = 50.848022
+offset_bottom = 290.55237
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "3"
+
+[node name="Dice_1_5_4" type="Button" parent="Dice Customization Page/Dice 4/Side_5"]
+offset_left = 57.659973
+offset_top = -52.853607
+offset_right = 189.65997
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "4"
+
+[node name="Dice_1_5_5" type="Button" parent="Dice Customization Page/Dice 4/Side_5"]
+offset_left = 57.659973
+offset_top = -20.150604
+offset_right = 189.65997
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "5"
+
+[node name="Dice_1_5_6" type="Button" parent="Dice Customization Page/Dice 4/Side_5"]
+offset_left = 57.659973
+offset_top = 13.680084
+offset_right = 189.65997
+offset_bottom = 291.68008
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "6"
+
+[node name="Side_6" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 4"]
+position = Vector2(1160.7268, -115.72211)
+scale = Vector2(3.1096573, 3.1096573)
+sprite_frames = SubResource("SpriteFrames_k6pkm")
+animation = &"Numbers"
+
+[node name="Dice_1_6_1" type="Button" parent="Dice Customization Page/Dice 4/Side_6"]
+offset_left = -70.89661
+offset_top = -52.853607
+offset_right = 20.103394
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "1"
+
+[node name="Dice_1_6_2" type="Button" parent="Dice Customization Page/Dice 4/Side_6"]
+offset_left = -73.15198
+offset_top = -20.150604
+offset_right = 50.848022
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "2"
+
+[node name="Dice_1_6_3" type="Button" parent="Dice Customization Page/Dice 4/Side_6"]
+offset_left = -73.15198
+offset_top = 12.552368
+offset_right = 50.848022
+offset_bottom = 290.55237
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "3"
+
+[node name="Dice_1_6_4" type="Button" parent="Dice Customization Page/Dice 4/Side_6"]
+offset_left = 57.659973
+offset_top = -52.853607
+offset_right = 189.65997
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "4"
+
+[node name="Dice_1_6_5" type="Button" parent="Dice Customization Page/Dice 4/Side_6"]
+offset_left = 57.659973
+offset_top = -20.150604
+offset_right = 189.65997
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "5"
+
+[node name="Dice_1_6_6" type="Button" parent="Dice Customization Page/Dice 4/Side_6"]
+offset_left = 57.659973
+offset_top = 13.680084
+offset_right = 189.65997
+offset_bottom = 291.68008
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "6"
+
+[node name="Dice 4 Back Button" type="Button" parent="Dice Customization Page/Dice 4"]
+layout_mode = 0
+offset_left = -750.4395
+offset_top = 73.6413
+offset_right = -466.4395
+offset_bottom = 239.6413
+scale = Vector2(1.4400274, 1.4400274)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 156
+text = "Back"
+
+[node name="Dice 5" type="Label" parent="Dice Customization Page"]
+visible = false
+layout_mode = 0
+offset_left = 452.99997
+offset_top = 397.0
+offset_right = 1190.0
+offset_bottom = 773.0
+scale = Vector2(0.28516617, 0.28516617)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 371
+text = "DICE 5"
+
+[node name="Side_1" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 5"]
+position = Vector2(-365.15918, -463.34766)
+scale = Vector2(3.1096573, 3.1096573)
+sprite_frames = SubResource("SpriteFrames_k6pkm")
+animation = &"Numbers"
+
+[node name="Dice_1_1_1" type="Button" parent="Dice Customization Page/Dice 5/Side_1"]
+offset_left = -70.89661
+offset_top = -52.853607
+offset_right = 20.103394
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "1"
+
+[node name="Dice_1_1_2" type="Button" parent="Dice Customization Page/Dice 5/Side_1"]
+offset_left = -73.15198
+offset_top = -20.150604
+offset_right = 50.848022
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "2"
+
+[node name="Dice_1_1_3" type="Button" parent="Dice Customization Page/Dice 5/Side_1"]
+offset_left = -73.15198
+offset_top = 12.552368
+offset_right = 50.848022
+offset_bottom = 290.55237
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "3"
+
+[node name="Dice_1_1_4" type="Button" parent="Dice Customization Page/Dice 5/Side_1"]
+offset_left = 57.659973
+offset_top = -52.853607
+offset_right = 189.65997
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "4"
+
+[node name="Dice_1_1_5" type="Button" parent="Dice Customization Page/Dice 5/Side_1"]
+offset_left = 57.659973
+offset_top = -20.150604
+offset_right = 189.65997
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "5"
+
+[node name="Dice_1_1_6" type="Button" parent="Dice Customization Page/Dice 5/Side_1"]
+offset_left = 57.659973
+offset_top = 13.680084
+offset_right = 189.65997
+offset_bottom = 291.68008
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "6"
+
+[node name="Side_2" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 5"]
+position = Vector2(413.79395, -463.34766)
+scale = Vector2(3.1096573, 3.1096573)
+sprite_frames = SubResource("SpriteFrames_k6pkm")
+animation = &"Numbers"
+
+[node name="Dice_1_2_1" type="Button" parent="Dice Customization Page/Dice 5/Side_2"]
+offset_left = -70.89661
+offset_top = -52.853607
+offset_right = 20.103394
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "1"
+
+[node name="Dice_1_2_2" type="Button" parent="Dice Customization Page/Dice 5/Side_2"]
+offset_left = -73.15198
+offset_top = -20.150604
+offset_right = 50.848022
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "2"
+
+[node name="Dice_1_2_3" type="Button" parent="Dice Customization Page/Dice 5/Side_2"]
+offset_left = -73.15198
+offset_top = 12.552368
+offset_right = 50.848022
+offset_bottom = 290.55237
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "3"
+
+[node name="Dice_1_2_4" type="Button" parent="Dice Customization Page/Dice 5/Side_2"]
+offset_left = 57.659973
+offset_top = -52.853607
+offset_right = 189.65997
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "4"
+
+[node name="Dice_1_2_5" type="Button" parent="Dice Customization Page/Dice 5/Side_2"]
+offset_left = 57.659973
+offset_top = -20.150604
+offset_right = 189.65997
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "5"
+
+[node name="Dice_1_2_6" type="Button" parent="Dice Customization Page/Dice 5/Side_2"]
+offset_left = 57.659973
+offset_top = 13.680084
+offset_right = 189.65997
+offset_bottom = 291.68008
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "6"
+
+[node name="Side_3" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 5"]
+position = Vector2(1160.7269, -463.34766)
+scale = Vector2(3.1096573, 3.1096573)
+sprite_frames = SubResource("SpriteFrames_k6pkm")
+animation = &"Numbers"
+
+[node name="Dice_1_3_1" type="Button" parent="Dice Customization Page/Dice 5/Side_3"]
+offset_left = -70.89661
+offset_top = -52.853607
+offset_right = 20.103394
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "1"
+
+[node name="Dice_1_3_2" type="Button" parent="Dice Customization Page/Dice 5/Side_3"]
+offset_left = -73.15198
+offset_top = -20.150604
+offset_right = 50.848022
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "2"
+
+[node name="Dice_1_3_3" type="Button" parent="Dice Customization Page/Dice 5/Side_3"]
+offset_left = -73.15198
+offset_top = 12.552368
+offset_right = 50.848022
+offset_bottom = 290.55237
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "3"
+
+[node name="Dice_1_3_4" type="Button" parent="Dice Customization Page/Dice 5/Side_3"]
+offset_left = 57.659973
+offset_top = -52.853622
+offset_right = 189.65997
+offset_bottom = 225.14638
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "4"
+
+[node name="Dice_1_3_5" type="Button" parent="Dice Customization Page/Dice 5/Side_3"]
+offset_left = 57.659973
+offset_top = -20.150604
+offset_right = 189.65997
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "5"
+
+[node name="Dice_1_3_6" type="Button" parent="Dice Customization Page/Dice 5/Side_3"]
+offset_left = 57.659973
+offset_top = 13.680084
+offset_right = 189.65997
+offset_bottom = 291.68008
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "6"
+
+[node name="Side_4" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 5"]
+position = Vector2(-368.2063, -115.72211)
+scale = Vector2(3.1096573, 3.1096573)
+sprite_frames = SubResource("SpriteFrames_k6pkm")
+animation = &"Numbers"
+
+[node name="Dice_1_4_1" type="Button" parent="Dice Customization Page/Dice 5/Side_4"]
+offset_left = -70.89661
+offset_top = -52.853607
+offset_right = 20.103394
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "1"
+
+[node name="Dice_1_4_2" type="Button" parent="Dice Customization Page/Dice 5/Side_4"]
+offset_left = -73.15198
+offset_top = -20.150604
+offset_right = 50.848022
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "2"
+
+[node name="Dice_1_4_3" type="Button" parent="Dice Customization Page/Dice 5/Side_4"]
+offset_left = -73.15198
+offset_top = 12.552368
+offset_right = 50.848022
+offset_bottom = 290.55237
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "3"
+
+[node name="Dice_1_4_4" type="Button" parent="Dice Customization Page/Dice 5/Side_4"]
+offset_left = 57.659973
+offset_top = -52.853607
+offset_right = 189.65997
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "4"
+
+[node name="Dice_1_4_5" type="Button" parent="Dice Customization Page/Dice 5/Side_4"]
+offset_left = 57.659973
+offset_top = -20.150604
+offset_right = 189.65997
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "5"
+
+[node name="Dice_1_4_6" type="Button" parent="Dice Customization Page/Dice 5/Side_4"]
+offset_left = 57.659973
+offset_top = 13.680084
+offset_right = 189.65997
+offset_bottom = 291.68008
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "6"
+
+[node name="Side_5" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 5"]
+position = Vector2(410.28717, -115.72211)
+scale = Vector2(3.1096573, 3.1096573)
+sprite_frames = SubResource("SpriteFrames_k6pkm")
+animation = &"Numbers"
+
+[node name="Dice_1_5_1" type="Button" parent="Dice Customization Page/Dice 5/Side_5"]
+offset_left = -70.89661
+offset_top = -52.853607
+offset_right = 20.103394
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "1"
+
+[node name="Dice_1_5_2" type="Button" parent="Dice Customization Page/Dice 5/Side_5"]
+offset_left = -73.15198
+offset_top = -20.150604
+offset_right = 50.848022
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "2"
+
+[node name="Dice_1_5_3" type="Button" parent="Dice Customization Page/Dice 5/Side_5"]
+offset_left = -73.15198
+offset_top = 12.552368
+offset_right = 50.848022
+offset_bottom = 290.55237
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "3"
+
+[node name="Dice_1_5_4" type="Button" parent="Dice Customization Page/Dice 5/Side_5"]
+offset_left = 57.659973
+offset_top = -52.853607
+offset_right = 189.65997
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "4"
+
+[node name="Dice_1_5_5" type="Button" parent="Dice Customization Page/Dice 5/Side_5"]
+offset_left = 57.659973
+offset_top = -20.150604
+offset_right = 189.65997
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "5"
+
+[node name="Dice_1_5_6" type="Button" parent="Dice Customization Page/Dice 5/Side_5"]
+offset_left = 57.659973
+offset_top = 13.680084
+offset_right = 189.65997
+offset_bottom = 291.68008
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "6"
+
+[node name="Side_6" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 5"]
+position = Vector2(1160.7268, -115.72211)
+scale = Vector2(3.1096573, 3.1096573)
+sprite_frames = SubResource("SpriteFrames_k6pkm")
+animation = &"Numbers"
+
+[node name="Dice_1_6_1" type="Button" parent="Dice Customization Page/Dice 5/Side_6"]
+offset_left = -70.89661
+offset_top = -52.853607
+offset_right = 20.103394
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "1"
+
+[node name="Dice_1_6_2" type="Button" parent="Dice Customization Page/Dice 5/Side_6"]
+offset_left = -73.15198
+offset_top = -20.150604
+offset_right = 50.848022
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "2"
+
+[node name="Dice_1_6_3" type="Button" parent="Dice Customization Page/Dice 5/Side_6"]
+offset_left = -73.15198
+offset_top = 12.552368
+offset_right = 50.848022
+offset_bottom = 290.55237
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "3"
+
+[node name="Dice_1_6_4" type="Button" parent="Dice Customization Page/Dice 5/Side_6"]
+offset_left = 57.659973
+offset_top = -52.853607
+offset_right = 189.65997
+offset_bottom = 225.1464
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "4"
+
+[node name="Dice_1_6_5" type="Button" parent="Dice Customization Page/Dice 5/Side_6"]
+offset_left = 57.659973
+offset_top = -20.150604
+offset_right = 189.65997
+offset_bottom = 257.8494
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "5"
+
+[node name="Dice_1_6_6" type="Button" parent="Dice Customization Page/Dice 5/Side_6"]
+offset_left = 57.659973
+offset_top = 13.680084
+offset_right = 189.65997
+offset_bottom = 291.68008
+scale = Vector2(0.1322693, 0.10231476)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 266
+text = "6"
+
+[node name="Dice 5 Back Button" type="Button" parent="Dice Customization Page/Dice 5"]
+layout_mode = 0
+offset_left = -750.4395
+offset_top = 73.6413
+offset_right = -466.4395
+offset_bottom = 239.6413
+scale = Vector2(1.4400274, 1.4400274)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 156
+text = "Back"
+
+[node name="Control" type="Control" parent="Dice Customization Page"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="1s" type="TextureRect" parent="Dice Customization Page/Control"]
+layout_mode = 0
+offset_left = 394.00003
+offset_top = 312.00003
+offset_right = 480.00003
+offset_bottom = 398.00003
+scale = Vector2(0.57231814, 0.57231814)
+texture = ExtResource("5_ow1eo")
+
+[node name="Label" type="Label" parent="Dice Customization Page/Control/1s"]
+layout_mode = 0
+offset_left = 99.5949
+offset_top = 6.9890666
+offset_right = 347.5949
+offset_bottom = 331.98907
+scale = Vector2(0.28508592, 0.28508592)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 321
+text = ": 0"
+
+[node name="2s" type="TextureRect" parent="Dice Customization Page/Control"]
+layout_mode = 0
+offset_left = 394.00003
+offset_top = 372.0
+offset_right = 480.00003
+offset_bottom = 458.0
+scale = Vector2(0.57231814, 0.57231814)
+texture = ExtResource("6_k6pkm")
+
+[node name="Label" type="Label" parent="Dice Customization Page/Control/2s"]
+layout_mode = 0
+offset_left = 99.5949
+offset_top = 6.9890666
+offset_right = 347.5949
+offset_bottom = 331.98907
+scale = Vector2(0.28508592, 0.28508592)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 321
+text = ": 0"
+
+[node name="3s" type="TextureRect" parent="Dice Customization Page/Control"]
+layout_mode = 0
+offset_left = 394.00003
+offset_top = 433.0
+offset_right = 480.00003
+offset_bottom = 519.0
+scale = Vector2(0.57231814, 0.57231814)
+texture = ExtResource("7_1sjcd")
+
+[node name="Label" type="Label" parent="Dice Customization Page/Control/3s"]
+layout_mode = 0
+offset_left = 99.5949
+offset_top = 6.9890666
+offset_right = 347.5949
+offset_bottom = 331.98907
+scale = Vector2(0.28508592, 0.28508592)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 321
+text = ": 0"
+
+[node name="4s" type="TextureRect" parent="Dice Customization Page/Control"]
+layout_mode = 0
+offset_left = 542.0
+offset_top = 312.00003
+offset_right = 628.0
+offset_bottom = 398.00003
+scale = Vector2(0.57231814, 0.57231814)
+texture = ExtResource("8_1cyt5")
+
+[node name="Label" type="Label" parent="Dice Customization Page/Control/4s"]
+layout_mode = 0
+offset_left = 99.5949
+offset_top = 6.9890666
+offset_right = 347.5949
+offset_bottom = 331.98907
+scale = Vector2(0.28508592, 0.28508592)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 321
+text = ": 0"
+
+[node name="5s" type="TextureRect" parent="Dice Customization Page/Control"]
+layout_mode = 0
+offset_left = 542.0
+offset_top = 372.0
+offset_right = 628.0
+offset_bottom = 458.0
+scale = Vector2(0.57231814, 0.57231814)
+texture = ExtResource("9_0vsm1")
+
+[node name="Label" type="Label" parent="Dice Customization Page/Control/5s"]
+layout_mode = 0
+offset_left = 99.5949
+offset_top = 6.9890666
+offset_right = 347.5949
+offset_bottom = 331.98907
+scale = Vector2(0.28508592, 0.28508592)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 321
+text = ": 0"
+
+[node name="6s" type="TextureRect" parent="Dice Customization Page/Control"]
+layout_mode = 0
+offset_left = 542.0
+offset_top = 433.0
+offset_right = 628.0
+offset_bottom = 519.0
+scale = Vector2(0.57231814, 0.57231814)
+texture = ExtResource("10_3568l")
+
+[node name="Label" type="Label" parent="Dice Customization Page/Control/6s"]
+layout_mode = 0
+offset_left = 99.5949
+offset_top = 6.9890666
+offset_right = 347.5949
+offset_bottom = 331.98907
+scale = Vector2(0.28508592, 0.28508592)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 321
+text = ": 0"
+
+[connection signal="pressed" from="Shop Area/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Shop Area/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Shop Area/Button3" to="." method="_on_button_3_pressed"]
+[connection signal="pressed" from="Shop Area/Button4" to="." method="_on_button_4_pressed"]
+[connection signal="pressed" from="Shop Area/Button5" to="." method="_on_button_5_pressed"]
+[connection signal="pressed" from="Shop Area/Button6" to="." method="_on_button_6_pressed"]
 [connection signal="pressed" from="Menu/Next Level Button" to="." method="_on_next_level_button_pressed"]
 [connection signal="pressed" from="Menu/Dice Customization Button" to="." method="_on_dice_customization_button_pressed"]
 [connection signal="pressed" from="Hand Requirements Page/Hand Requirement Back Button" to="." method="_on_hand_requirement_back_button_pressed"]
 [connection signal="pressed" from="Dice Customization Page/Dice Custom Back Button" to="." method="_on_dice_custom_back_button_pressed"]
 [connection signal="pressed" from="Dice Customization Page/Dice1 Button" to="." method="_on_dice_1_button_pressed"]
 [connection signal="pressed" from="Dice Customization Page/Dice2 Button" to="." method="_on_dice_2_button_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice3 Button" to="." method="_on_dice_3_button_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice4 Button" to="." method="_on_dice_4_button_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice5 Button" to="." method="_on_dice_5_button_pressed"]
 [connection signal="pressed" from="Dice Customization Page/Dice 1/Side_1/Dice_1_1_1" to="." method="_on_dice_1_1_1_pressed"]
 [connection signal="pressed" from="Dice Customization Page/Dice 1/Side_1/Dice_1_1_2" to="." method="_on_dice_1_1_2_pressed"]
 [connection signal="pressed" from="Dice Customization Page/Dice 1/Side_1/Dice_1_1_3" to="." method="_on_dice_1_1_3_pressed"]
@@ -1720,3 +3205,114 @@ text = "Back"
 [connection signal="pressed" from="Dice Customization Page/Dice 2/Side_6/Dice_1_6_5" to="." method="_on_dice_1_6_5_pressed"]
 [connection signal="pressed" from="Dice Customization Page/Dice 2/Side_6/Dice_1_6_6" to="." method="_on_dice_1_6_6_pressed"]
 [connection signal="pressed" from="Dice Customization Page/Dice 2/Dice 2 Back Button" to="." method="_on_dice_2_back_button_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_1/Dice_1_1_1" to="." method="_on_dice_1_1_1_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_1/Dice_1_1_2" to="." method="_on_dice_1_1_2_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_1/Dice_1_1_3" to="." method="_on_dice_1_1_3_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_1/Dice_1_1_4" to="." method="_on_dice_1_1_4_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_1/Dice_1_1_5" to="." method="_on_dice_1_1_5_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_1/Dice_1_1_6" to="." method="_on_dice_1_1_6_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_2/Dice_1_2_1" to="." method="_on_dice_1_2_1_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_2/Dice_1_2_2" to="." method="_on_dice_1_2_2_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_2/Dice_1_2_3" to="." method="_on_dice_1_2_3_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_2/Dice_1_2_4" to="." method="_on_dice_1_2_4_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_2/Dice_1_2_5" to="." method="_on_dice_1_2_5_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_2/Dice_1_2_6" to="." method="_on_dice_1_2_6_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_3/Dice_1_3_1" to="." method="_on_dice_1_3_1_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_3/Dice_1_3_2" to="." method="_on_dice_1_3_2_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_3/Dice_1_3_3" to="." method="_on_dice_1_3_3_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_3/Dice_1_3_4" to="." method="_on_dice_1_3_4_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_3/Dice_1_3_5" to="." method="_on_dice_1_3_5_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_3/Dice_1_3_6" to="." method="_on_dice_1_3_6_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_4/Dice_1_4_1" to="." method="_on_dice_1_4_1_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_4/Dice_1_4_2" to="." method="_on_dice_1_4_2_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_4/Dice_1_4_3" to="." method="_on_dice_1_4_3_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_4/Dice_1_4_4" to="." method="_on_dice_1_4_4_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_4/Dice_1_4_5" to="." method="_on_dice_1_4_5_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_4/Dice_1_4_6" to="." method="_on_dice_1_4_6_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_5/Dice_1_5_1" to="." method="_on_dice_1_5_1_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_5/Dice_1_5_2" to="." method="_on_dice_1_5_2_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_5/Dice_1_5_3" to="." method="_on_dice_1_5_3_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_5/Dice_1_5_4" to="." method="_on_dice_1_5_4_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_5/Dice_1_5_5" to="." method="_on_dice_1_5_5_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_5/Dice_1_5_6" to="." method="_on_dice_1_5_6_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_6/Dice_1_6_1" to="." method="_on_dice_1_6_1_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_6/Dice_1_6_2" to="." method="_on_dice_1_6_2_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_6/Dice_1_6_3" to="." method="_on_dice_1_6_3_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_6/Dice_1_6_4" to="." method="_on_dice_1_6_4_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_6/Dice_1_6_5" to="." method="_on_dice_1_6_5_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Side_6/Dice_1_6_6" to="." method="_on_dice_1_6_6_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 3/Dice 3 Back Button" to="." method="_on_dice_3_back_button_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_1/Dice_1_1_1" to="." method="_on_dice_1_1_1_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_1/Dice_1_1_2" to="." method="_on_dice_1_1_2_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_1/Dice_1_1_3" to="." method="_on_dice_1_1_3_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_1/Dice_1_1_4" to="." method="_on_dice_1_1_4_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_1/Dice_1_1_5" to="." method="_on_dice_1_1_5_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_1/Dice_1_1_6" to="." method="_on_dice_1_1_6_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_2/Dice_1_2_1" to="." method="_on_dice_1_2_1_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_2/Dice_1_2_2" to="." method="_on_dice_1_2_2_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_2/Dice_1_2_3" to="." method="_on_dice_1_2_3_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_2/Dice_1_2_4" to="." method="_on_dice_1_2_4_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_2/Dice_1_2_5" to="." method="_on_dice_1_2_5_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_2/Dice_1_2_6" to="." method="_on_dice_1_2_6_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_3/Dice_1_3_1" to="." method="_on_dice_1_3_1_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_3/Dice_1_3_2" to="." method="_on_dice_1_3_2_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_3/Dice_1_3_3" to="." method="_on_dice_1_3_3_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_3/Dice_1_3_4" to="." method="_on_dice_1_3_4_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_3/Dice_1_3_5" to="." method="_on_dice_1_3_5_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_3/Dice_1_3_6" to="." method="_on_dice_1_3_6_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_4/Dice_1_4_1" to="." method="_on_dice_1_4_1_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_4/Dice_1_4_2" to="." method="_on_dice_1_4_2_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_4/Dice_1_4_3" to="." method="_on_dice_1_4_3_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_4/Dice_1_4_4" to="." method="_on_dice_1_4_4_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_4/Dice_1_4_5" to="." method="_on_dice_1_4_5_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_4/Dice_1_4_6" to="." method="_on_dice_1_4_6_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_5/Dice_1_5_1" to="." method="_on_dice_1_5_1_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_5/Dice_1_5_2" to="." method="_on_dice_1_5_2_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_5/Dice_1_5_3" to="." method="_on_dice_1_5_3_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_5/Dice_1_5_4" to="." method="_on_dice_1_5_4_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_5/Dice_1_5_5" to="." method="_on_dice_1_5_5_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_5/Dice_1_5_6" to="." method="_on_dice_1_5_6_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_6/Dice_1_6_1" to="." method="_on_dice_1_6_1_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_6/Dice_1_6_2" to="." method="_on_dice_1_6_2_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_6/Dice_1_6_3" to="." method="_on_dice_1_6_3_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_6/Dice_1_6_4" to="." method="_on_dice_1_6_4_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_6/Dice_1_6_5" to="." method="_on_dice_1_6_5_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Side_6/Dice_1_6_6" to="." method="_on_dice_1_6_6_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 4/Dice 4 Back Button" to="." method="_on_dice_4_back_button_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_1/Dice_1_1_1" to="." method="_on_dice_1_1_1_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_1/Dice_1_1_2" to="." method="_on_dice_1_1_2_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_1/Dice_1_1_3" to="." method="_on_dice_1_1_3_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_1/Dice_1_1_4" to="." method="_on_dice_1_1_4_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_1/Dice_1_1_5" to="." method="_on_dice_1_1_5_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_1/Dice_1_1_6" to="." method="_on_dice_1_1_6_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_2/Dice_1_2_1" to="." method="_on_dice_1_2_1_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_2/Dice_1_2_2" to="." method="_on_dice_1_2_2_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_2/Dice_1_2_3" to="." method="_on_dice_1_2_3_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_2/Dice_1_2_4" to="." method="_on_dice_1_2_4_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_2/Dice_1_2_5" to="." method="_on_dice_1_2_5_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_2/Dice_1_2_6" to="." method="_on_dice_1_2_6_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_3/Dice_1_3_1" to="." method="_on_dice_1_3_1_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_3/Dice_1_3_2" to="." method="_on_dice_1_3_2_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_3/Dice_1_3_3" to="." method="_on_dice_1_3_3_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_3/Dice_1_3_4" to="." method="_on_dice_1_3_4_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_3/Dice_1_3_5" to="." method="_on_dice_1_3_5_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_3/Dice_1_3_6" to="." method="_on_dice_1_3_6_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_4/Dice_1_4_1" to="." method="_on_dice_1_4_1_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_4/Dice_1_4_2" to="." method="_on_dice_1_4_2_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_4/Dice_1_4_3" to="." method="_on_dice_1_4_3_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_4/Dice_1_4_4" to="." method="_on_dice_1_4_4_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_4/Dice_1_4_5" to="." method="_on_dice_1_4_5_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_4/Dice_1_4_6" to="." method="_on_dice_1_4_6_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_5/Dice_1_5_1" to="." method="_on_dice_1_5_1_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_5/Dice_1_5_2" to="." method="_on_dice_1_5_2_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_5/Dice_1_5_3" to="." method="_on_dice_1_5_3_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_5/Dice_1_5_4" to="." method="_on_dice_1_5_4_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_5/Dice_1_5_5" to="." method="_on_dice_1_5_5_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_5/Dice_1_5_6" to="." method="_on_dice_1_5_6_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_6/Dice_1_6_1" to="." method="_on_dice_1_6_1_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_6/Dice_1_6_2" to="." method="_on_dice_1_6_2_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_6/Dice_1_6_3" to="." method="_on_dice_1_6_3_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_6/Dice_1_6_4" to="." method="_on_dice_1_6_4_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_6/Dice_1_6_5" to="." method="_on_dice_1_6_5_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Side_6/Dice_1_6_6" to="." method="_on_dice_1_6_6_pressed"]
+[connection signal="pressed" from="Dice Customization Page/Dice 5/Dice 5 Back Button" to="." method="_on_dice_5_back_button_pressed"]

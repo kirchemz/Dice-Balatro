@@ -196,6 +196,7 @@ func _on_shop_button_pressed() -> void:
 
 func _on_next_level_button_pressed() -> void:
 	get_tree().reload_current_scene()
+	Globals.goal += 20
 
 
 func _on_how_to_play_button_pressed() -> void:
