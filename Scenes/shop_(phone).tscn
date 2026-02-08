@@ -957,6 +957,7 @@ text = "Dice Customization"
 metadata/_edit_use_anchors_ = true
 
 [node name="Dice Custom Back Button" type="Button" parent="Dice Customization Page"]
+visible = false
 layout_mode = 0
 offset_left = 192.0
 offset_top = 1725.0
@@ -969,6 +970,7 @@ text = "Back"
 metadata/_edit_use_anchors_ = true
 
 [node name="Dice1 Button" type="Button" parent="Dice Customization Page"]
+visible = false
 layout_mode = 0
 offset_left = 182.0
 offset_top = 451.0
@@ -981,6 +983,7 @@ text = "Dice 1"
 metadata/_edit_use_anchors_ = true
 
 [node name="Dice2 Button" type="Button" parent="Dice Customization Page"]
+visible = false
 layout_mode = 0
 offset_left = 451.99997
 offset_top = 451.00003
@@ -993,6 +996,7 @@ text = "Dice 2"
 metadata/_edit_use_anchors_ = true
 
 [node name="Dice3 Button" type="Button" parent="Dice Customization Page"]
+visible = false
 layout_mode = 0
 offset_left = 732.0
 offset_top = 451.0
@@ -1005,6 +1009,7 @@ text = "Dice 3"
 metadata/_edit_use_anchors_ = true
 
 [node name="Dice4 Button" type="Button" parent="Dice Customization Page"]
+visible = false
 layout_mode = 0
 offset_left = 1014.0
 offset_top = 451.0
@@ -1017,6 +1022,7 @@ text = "Dice 4"
 metadata/_edit_use_anchors_ = true
 
 [node name="Dice5 Button" type="Button" parent="Dice Customization Page"]
+visible = false
 layout_mode = 0
 offset_left = 611.0
 offset_top = 649.0
@@ -1029,20 +1035,19 @@ text = "Dice 5"
 metadata/_edit_use_anchors_ = true
 
 [node name="Dice 1" type="Label" parent="Dice Customization Page"]
-visible = false
 layout_mode = 0
-offset_left = 452.99997
-offset_top = 397.0
-offset_right = 1190.0
-offset_bottom = 773.0
-scale = Vector2(0.28516617, 0.28516617)
+offset_left = 680.89417
+offset_top = 1825.2797
+offset_right = 1417.8942
+offset_bottom = 2201.2798
+scale = Vector2(0.81517416, 0.81517416)
 theme_override_fonts/font = ExtResource("4_pnnxx")
 theme_override_font_sizes/font_size = 371
 text = "DICE 1"
 
 [node name="Side_1" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 1"]
-position = Vector2(-365.15918, -463.34766)
-scale = Vector2(3.1096573, 3.1096573)
+position = Vector2(-352.95538, -1446.7251)
+scale = Vector2(3.5692809, 3.5692809)
 sprite_frames = SubResource("SpriteFrames_k6pkm")
 animation = &"Numbers"
 
@@ -1107,8 +1112,8 @@ theme_override_font_sizes/font_size = 266
 text = "6"
 
 [node name="Side_2" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 1"]
-position = Vector2(413.79395, -463.34766)
-scale = Vector2(3.1096573, 3.1096573)
+position = Vector2(472.73663, -1446.725)
+scale = Vector2(3.5692809, 3.5692809)
 sprite_frames = SubResource("SpriteFrames_k6pkm")
 animation = &"Numbers"
 
@@ -1173,8 +1178,8 @@ theme_override_font_sizes/font_size = 266
 text = "6"
 
 [node name="Side_3" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 1"]
-position = Vector2(1160.7269, -463.34766)
-scale = Vector2(3.1096573, 3.1096573)
+position = Vector2(-351.35834, -852.3243)
+scale = Vector2(3.5692809, 3.5692809)
 sprite_frames = SubResource("SpriteFrames_k6pkm")
 animation = &"Numbers"
 
@@ -1239,8 +1244,8 @@ theme_override_font_sizes/font_size = 266
 text = "6"
 
 [node name="Side_4" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 1"]
-position = Vector2(-368.2063, -115.72211)
-scale = Vector2(3.1096573, 3.1096573)
+position = Vector2(472.73666, -853.89343)
+scale = Vector2(3.5692809, 3.5692809)
 sprite_frames = SubResource("SpriteFrames_k6pkm")
 animation = &"Numbers"
 
@@ -1305,8 +1310,8 @@ theme_override_font_sizes/font_size = 266
 text = "6"
 
 [node name="Side_5" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 1"]
-position = Vector2(410.28717, -115.72211)
-scale = Vector2(3.1096573, 3.1096573)
+position = Vector2(-351.35834, -277.73352)
+scale = Vector2(3.5692809, 3.5692809)
 sprite_frames = SubResource("SpriteFrames_k6pkm")
 animation = &"Numbers"
 
@@ -1371,8 +1376,8 @@ theme_override_font_sizes/font_size = 266
 text = "6"
 
 [node name="Side_6" type="AnimatedSprite2D" parent="Dice Customization Page/Dice 1"]
-position = Vector2(1160.7268, -115.72211)
-scale = Vector2(3.1096573, 3.1096573)
+position = Vector2(472.73654, -277.73355)
+scale = Vector2(3.5692809, 3.5692809)
 sprite_frames = SubResource("SpriteFrames_k6pkm")
 animation = &"Numbers"
 
@@ -1438,11 +1443,11 @@ text = "6"
 
 [node name="Dice 1 Back Button" type="Button" parent="Dice Customization Page/Dice 1"]
 layout_mode = 0
-offset_left = -750.4395
-offset_top = 73.6413
-offset_right = -466.4395
-offset_bottom = 239.6413
-scale = Vector2(1.4400274, 1.4400274)
+offset_left = -629.25073
+offset_top = 67.4719
+offset_right = -345.25073
+offset_bottom = 233.4719
+scale = Vector2(1.8228029, 1.8228029)
 theme_override_fonts/font = ExtResource("4_pnnxx")
 theme_override_font_sizes/font_size = 156
 text = "Back"
@@ -3124,6 +3129,7 @@ theme_override_font_sizes/font_size = 156
 text = "Back"
 
 [node name="Control" type="Control" parent="Dice Customization Page"]
+visible = false
 anchors_preset = 0
 offset_left = -85.0
 offset_top = -22.0
