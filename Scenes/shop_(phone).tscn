@@ -43,6 +43,7 @@ animations = [{
 }]
 
 [node name="Shop (Phone)" type="Node2D"]
+scale = Vector2(0.9486656, 0.9486656)
 script = ExtResource("1_4stps")
 
 [node name="Shop Area" type="TextureRect" parent="."]
@@ -915,22 +916,30 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+scale = Vector2(0.7953921, 0.7953921)
 metadata/_edit_use_anchors_ = true
 
 [node name="Panel" type="Panel" parent="Dice Customization Page"]
-layout_mode = 0
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 2.1508484
+anchor_bottom = 7.7627134
 offset_left = 3.0517578e-05
 offset_right = 1439.0
 offset_bottom = 2165.0
+metadata/_edit_use_anchors_ = true
 
 [node name="TextureRect" type="TextureRect" parent="Dice Customization Page"]
-layout_mode = 0
+layout_mode = 1
+anchors_preset = -1
+anchor_bottom = 1.0011322
 offset_left = 105.0
 offset_top = 80.0
 offset_right = 863.0
 offset_bottom = 503.0
 scale = Vector2(1.6643162, 4.75796)
 texture = ExtResource("11_gpxdh")
+metadata/_edit_use_anchors_ = true
 
 [node name="Label" type="Label" parent="Dice Customization Page"]
 layout_mode = 0
@@ -942,6 +951,7 @@ scale = Vector2(0.6036267, 1.0850747)
 theme_override_fonts/font = ExtResource("4_pnnxx")
 theme_override_font_sizes/font_size = 256
 text = "Dice Customization"
+metadata/_edit_use_anchors_ = true
 
 [node name="Dice Custom Back Button" type="Button" parent="Dice Customization Page"]
 layout_mode = 0
@@ -953,6 +963,7 @@ scale = Vector2(1.1741277, 1.344935)
 theme_override_fonts/font = ExtResource("4_pnnxx")
 theme_override_font_sizes/font_size = 156
 text = "Back"
+metadata/_edit_use_anchors_ = true
 
 [node name="Dice1 Button" type="Button" parent="Dice Customization Page"]
 layout_mode = 0
@@ -964,6 +975,7 @@ scale = Vector2(0.33815858, 0.5072245)
 theme_override_fonts/font = ExtResource("4_pnnxx")
 theme_override_font_sizes/font_size = 361
 text = "Dice 1"
+metadata/_edit_use_anchors_ = true
 
 [node name="Dice2 Button" type="Button" parent="Dice Customization Page"]
 layout_mode = 0
@@ -975,6 +987,7 @@ scale = Vector2(0.33815858, 0.5072245)
 theme_override_fonts/font = ExtResource("4_pnnxx")
 theme_override_font_sizes/font_size = 361
 text = "Dice 2"
+metadata/_edit_use_anchors_ = true
 
 [node name="Dice3 Button" type="Button" parent="Dice Customization Page"]
 layout_mode = 0
@@ -986,6 +999,7 @@ scale = Vector2(0.33815858, 0.5072245)
 theme_override_fonts/font = ExtResource("4_pnnxx")
 theme_override_font_sizes/font_size = 361
 text = "Dice 3"
+metadata/_edit_use_anchors_ = true
 
 [node name="Dice4 Button" type="Button" parent="Dice Customization Page"]
 layout_mode = 0
@@ -997,6 +1011,7 @@ scale = Vector2(0.33815858, 0.5072245)
 theme_override_fonts/font = ExtResource("4_pnnxx")
 theme_override_font_sizes/font_size = 361
 text = "Dice 4"
+metadata/_edit_use_anchors_ = true
 
 [node name="Dice5 Button" type="Button" parent="Dice Customization Page"]
 layout_mode = 0
@@ -1008,6 +1023,7 @@ scale = Vector2(0.30589116, 0.45882466)
 theme_override_fonts/font = ExtResource("4_pnnxx")
 theme_override_font_sizes/font_size = 361
 text = "Dice 5"
+metadata/_edit_use_anchors_ = true
 
 [node name="Dice 1" type="Label" parent="Dice Customization Page"]
 visible = false
@@ -3111,6 +3127,7 @@ offset_top = -22.0
 offset_right = -45.0
 offset_bottom = 18.0
 scale = Vector2(1.6643162, 4.75796)
+metadata/_edit_use_anchors_ = true
 
 [node name="1s" type="TextureRect" parent="Dice Customization Page/Control"]
 layout_mode = 0
@@ -3120,6 +3137,7 @@ offset_right = 271.66187
 offset_bottom = 268.01077
 scale = Vector2(1.6389312, 0.60937786)
 texture = ExtResource("3_6w3f1")
+metadata/_edit_use_anchors_ = true
 
 [node name="Label" type="Label" parent="Dice Customization Page/Control/1s"]
 layout_mode = 0
@@ -3131,6 +3149,7 @@ scale = Vector2(0.28508592, 0.28508592)
 theme_override_fonts/font = ExtResource("4_pnnxx")
 theme_override_font_sizes/font_size = 321
 text = ": 0"
+metadata/_edit_use_anchors_ = true
 
 [node name="2s" type="TextureRect" parent="Dice Customization Page/Control"]
 layout_mode = 0
@@ -3140,6 +3159,7 @@ offset_right = 271.66187
 offset_bottom = 328.01074
 scale = Vector2(1.6389312, 0.60937786)
 texture = ExtResource("5_tq5cy")
+metadata/_edit_use_anchors_ = true
 
 [node name="Label" type="Label" parent="Dice Customization Page/Control/2s"]
 layout_mode = 0
@@ -3151,6 +3171,7 @@ scale = Vector2(0.28508592, 0.28508592)
 theme_override_fonts/font = ExtResource("4_pnnxx")
 theme_override_font_sizes/font_size = 321
 text = ": 0"
+metadata/_edit_use_anchors_ = true
 
 [node name="3s" type="TextureRect" parent="Dice Customization Page/Control"]
 layout_mode = 0
@@ -3160,6 +3181,7 @@ offset_right = 271.66187
 offset_bottom = 389.01074
 scale = Vector2(1.6389312, 0.60937786)
 texture = ExtResource("6_pau54")
+metadata/_edit_use_anchors_ = true
 
 [node name="Label" type="Label" parent="Dice Customization Page/Control/3s"]
 layout_mode = 0
@@ -3171,6 +3193,7 @@ scale = Vector2(0.28508592, 0.28508592)
 theme_override_fonts/font = ExtResource("4_pnnxx")
 theme_override_font_sizes/font_size = 321
 text = ": 0"
+metadata/_edit_use_anchors_ = true
 
 [node name="4s" type="TextureRect" parent="Dice Customization Page/Control"]
 layout_mode = 0
@@ -3180,6 +3203,7 @@ offset_right = 620.7542
 offset_bottom = 268.01077
 scale = Vector2(1.6389312, 0.60937786)
 texture = ExtResource("7_hvdmp")
+metadata/_edit_use_anchors_ = true
 
 [node name="Label" type="Label" parent="Dice Customization Page/Control/4s"]
 layout_mode = 0
@@ -3191,6 +3215,7 @@ scale = Vector2(0.28508592, 0.28508592)
 theme_override_fonts/font = ExtResource("4_pnnxx")
 theme_override_font_sizes/font_size = 321
 text = ": 0"
+metadata/_edit_use_anchors_ = true
 
 [node name="5s" type="TextureRect" parent="Dice Customization Page/Control"]
 layout_mode = 0
@@ -3200,6 +3225,7 @@ offset_right = 621.35504
 offset_bottom = 328.01074
 scale = Vector2(1.6389312, 0.60937786)
 texture = ExtResource("8_rb84a")
+metadata/_edit_use_anchors_ = true
 
 [node name="Label" type="Label" parent="Dice Customization Page/Control/5s"]
 layout_mode = 0
@@ -3211,6 +3237,7 @@ scale = Vector2(0.28508592, 0.28508592)
 theme_override_fonts/font = ExtResource("4_pnnxx")
 theme_override_font_sizes/font_size = 321
 text = ": 0"
+metadata/_edit_use_anchors_ = true
 
 [node name="6s" type="TextureRect" parent="Dice Customization Page/Control"]
 layout_mode = 0
@@ -3220,6 +3247,7 @@ offset_right = 620.7542
 offset_bottom = 387.1795
 scale = Vector2(1.6389312, 0.60937786)
 texture = ExtResource("9_iwrdo")
+metadata/_edit_use_anchors_ = true
 
 [node name="Label" type="Label" parent="Dice Customization Page/Control/6s"]
 layout_mode = 0
@@ -3231,6 +3259,7 @@ scale = Vector2(0.28508592, 0.28508592)
 theme_override_fonts/font = ExtResource("4_pnnxx")
 theme_override_font_sizes/font_size = 321
 text = ": 0"
+metadata/_edit_use_anchors_ = true
 
 [node name="Marker2D" type="Marker2D" parent="."]
 position = Vector2(1275, 1950)
