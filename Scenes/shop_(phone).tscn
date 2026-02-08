@@ -43,7 +43,7 @@ animations = [{
 }]
 
 [node name="Shop (Phone)" type="Node2D"]
-scale = Vector2(0.9486656, 0.9486656)
+scale = Vector2(0.9656969, 0.98290896)
 script = ExtResource("1_4stps")
 
 [node name="Shop Area" type="TextureRect" parent="."]
@@ -914,7 +914,8 @@ text = "Back"
 [node name="Dice Customization Page" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 40.0
+offset_left = 13.4617815
+offset_right = 53.46178
 offset_bottom = 40.0
 scale = Vector2(0.7953921, 0.7953921)
 metadata/_edit_use_anchors_ = true
@@ -922,8 +923,10 @@ metadata/_edit_use_anchors_ = true
 [node name="Panel" type="Panel" parent="Dice Customization Page"]
 layout_mode = 1
 anchors_preset = -1
-anchor_right = 2.1508484
-anchor_bottom = 7.7627134
+anchor_left = -26.265848
+anchor_top = -29.099588
+anchor_right = 30.812511
+anchor_bottom = 33.78135
 offset_left = 3.0517578e-05
 offset_right = 1439.0
 offset_bottom = 2165.0
