@@ -119,6 +119,7 @@ Requirements"
 metadata/_edit_use_anchors_ = true
 
 [node name="Shop Button" type="Button" parent="Menu"]
+visible = false
 layout_mode = 0
 offset_left = 278.11597
 offset_top = 127.0298
@@ -148,6 +149,7 @@ to play"
 metadata/_edit_use_anchors_ = true
 
 [node name="Next Level Button" type="Button" parent="Menu"]
+visible = false
 layout_mode = 0
 offset_left = 223.04648
 offset_top = 243.71367
