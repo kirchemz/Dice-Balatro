@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Crazy Dice"
-run/main_scene="uid://c2um8j2311ntt"
+run/main_scene="uid://drw45ao351ofw"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://Miscellaneous/icon.svg"
 
@@ -21,7 +21,8 @@ Globals="*res://Globals.gd"
 
 [display]
 
-window/stretch/mode="viewport"
+window/size/mode=3
+window/stretch/aspect="ignore"
 
 [rendering]
 
