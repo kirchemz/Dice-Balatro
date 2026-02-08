@@ -19,6 +19,7 @@
 [ext_resource type="Texture2D" uid="uid://bpm277j6jwaba" path="res://Miscellaneous/Screenshot 2026-02-02 160805.png" id="17_d5hqr"]
 
 [node name="Main (Phone)" type="Node2D"]
+scale = Vector2(0.957799, 1.0045625)
 script = ExtResource("1_ia1jh")
 
 [node name="Marker2D" type="Marker2D" parent="."]
