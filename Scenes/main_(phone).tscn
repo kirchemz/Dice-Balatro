@@ -19,7 +19,7 @@
 [ext_resource type="Texture2D" uid="uid://bpm277j6jwaba" path="res://Miscellaneous/Screenshot 2026-02-02 160805.png" id="17_d5hqr"]
 
 [node name="Main (Phone)" type="Node2D"]
-scale = Vector2(0.957799, 1.0045625)
+scale = Vector2(0.30773816, 0.32276314)
 script = ExtResource("1_ia1jh")
 
 [node name="Marker2D" type="Marker2D" parent="."]
@@ -121,9 +121,9 @@ metadata/_edit_use_anchors_ = true
 [node name="Shop Button" type="Button" parent="Menu"]
 visible = false
 layout_mode = 0
-offset_left = 197.34738
+offset_left = 273.03668
 offset_top = 127.0298
-offset_right = 976.3474
+offset_right = 1052.0366
 offset_bottom = 592.0298
 scale = Vector2(0.11413052, 0.23943046)
 theme_override_fonts/font = ExtResource("3_alvdt")
@@ -151,9 +151,9 @@ metadata/_edit_use_anchors_ = true
 [node name="Next Level Button" type="Button" parent="Menu"]
 visible = false
 layout_mode = 0
-offset_left = 196.01236
+offset_left = 221.09811
 offset_top = 243.71367
-offset_right = 2062.0125
+offset_right = 2087.0981
 offset_bottom = 708.7137
 scale = Vector2(0.077041976, 0.18238954)
 theme_override_fonts/font = ExtResource("3_alvdt")
