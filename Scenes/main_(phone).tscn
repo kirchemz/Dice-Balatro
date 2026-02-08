@@ -21,86 +21,96 @@
 [node name="Main (Phone)" type="Node2D"]
 script = ExtResource("1_ia1jh")
 
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(1275, 1950)
+
 [node name="Dice Area" type="Node2D" parent="."]
 position = Vector2(380, 295)
 scale = Vector2(0.660439, 0.660439)
 
 [node name="TextureRect" type="TextureRect" parent="Dice Area"]
-offset_left = 65.108215
-offset_top = 102.96182
-offset_right = 1123.4951
-offset_bottom = 537.52124
+offset_left = -569.3183
+offset_top = 1718.554
+offset_right = 489.06866
+offset_bottom = 2153.1135
+scale = Vector2(1.8174857, 1.8174857)
 texture = ExtResource("2_7i7d0")
 metadata/_edit_use_anchors_ = true
 
 [node name="Button" type="Button" parent="Dice Area"]
-offset_left = 462.0
-offset_top = 362.77722
-offset_right = 816.0
-offset_bottom = 579.7772
-scale = Vector2(0.63257897, 0.63257897)
+offset_left = 181.6973
+offset_top = 2172.7974
+offset_right = 535.69727
+offset_bottom = 2389.7974
+scale = Vector2(1.149703, 1.149703)
 theme_override_fonts/font = ExtResource("3_alvdt")
 theme_override_font_sizes/font_size = 206
 text = "Roll"
 metadata/_edit_use_anchors_ = true
 
 [node name="Button2" type="Button" parent="Dice Area"]
-offset_left = 763.1288
-offset_top = 381.5644
-offset_right = 1117.1288
-offset_bottom = 598.5644
-scale = Vector2(0.46705154, 0.46705154)
+offset_left = 743.4448
+offset_top = 2237.9053
+offset_right = 1116.4448
+offset_bottom = 2454.9053
+scale = Vector2(0.84885967, 0.84885967)
 theme_override_fonts/font = ExtResource("3_alvdt")
 theme_override_font_sizes/font_size = 206
 text = "Play"
 metadata/_edit_use_anchors_ = true
 
 [node name="Rolls" type="Label" parent="Dice Area"]
-offset_left = 172.61249
-offset_top = 361.88046
-offset_right = 1098.6125
-offset_bottom = 686.8805
-scale = Vector2(0.2210751, 0.2210751)
+offset_left = -316.45618
+offset_top = 2310.584
+offset_right = 609.5439
+offset_bottom = 2635.584
+scale = Vector2(0.4018009, 0.4018009)
 theme_override_fonts/font = ExtResource("3_alvdt")
 theme_override_font_sizes/font_size = 321
 text = "ROLLS: 5"
 metadata/_edit_use_anchors_ = true
 
 [node name="Dice" parent="Dice Area" instance=ExtResource("4_7xo5f")]
-position = Vector2(228.6358, 255.89041)
-scale = Vector2(10.652308, 10.652308)
+position = Vector2(-308.88544, 1992.6143)
+scale = Vector2(19.360418, 19.360418)
 
 [node name="Dice_2" parent="Dice Area" instance=ExtResource("5_7bxjk")]
-position = Vector2(407.3048, 255.89041)
-scale = Vector2(10.652308, 10.652308)
+position = Vector2(37.85367, 1992.6143)
+scale = Vector2(19.360418, 19.360418)
 
 [node name="Dice_3" parent="Dice Area" instance=ExtResource("6_adfp7")]
-position = Vector2(592.03046, 255.89041)
-scale = Vector2(10.652308, 10.652308)
+position = Vector2(390.64935, 1992.6143)
+scale = Vector2(19.360418, 19.360418)
 
 [node name="Dice_4" parent="Dice Area" instance=ExtResource("7_r6nwo")]
-position = Vector2(775.2419, 255.89041)
-scale = Vector2(10.652308, 10.652308)
+position = Vector2(740.4167, 1992.6143)
+scale = Vector2(19.360418, 19.360418)
 
 [node name="Dice_5" parent="Dice Area" instance=ExtResource("8_mj2wc")]
-position = Vector2(955.4251, 255.89041)
-scale = Vector2(10.652308, 10.652308)
+position = Vector2(1081.0992, 1992.6143)
+scale = Vector2(19.360418, 19.360418)
 
 [node name="Menu" type="TextureRect" parent="."]
 offset_left = 7.0
 offset_top = 12.0
 offset_right = 408.0
 offset_bottom = 644.0
+scale = Vector2(3.1282306, 1.2455612)
 texture = ExtResource("9_78d8g")
 metadata/_edit_use_anchors_ = true
 
 [node name="Hand Requirements" type="Button" parent="Menu"]
-layout_mode = 0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.3539063
+anchor_top = -0.20480506
+anchor_right = 0.35390633
+anchor_bottom = -0.20480502
 offset_left = 55.0
 offset_top = 457.0
 offset_right = 770.0
 offset_bottom = 740.02356
-scale = Vector2(0.4084681, 0.4084681)
+scale = Vector2(0.23840603, 0.7540883)
 theme_override_fonts/font = ExtResource("3_alvdt")
 theme_override_font_sizes/font_size = 126
 text = "Hand
@@ -120,12 +130,17 @@ theme_override_font_sizes/font_size = 451
 text = "SHOP"
 
 [node name="How to play button" type="Button" parent="Menu"]
-layout_mode = 0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.031111415
+anchor_top = 0.10086402
+anchor_right = -0.031111492
+anchor_bottom = 0.10244635
 offset_left = 46.999985
 offset_top = 259.0
 offset_right = 1063.3643
 offset_bottom = 724.0
-scale = Vector2(0.16332729, 0.16332729)
+scale = Vector2(0.15159619, 0.48120397)
 theme_override_fonts/font = ExtResource("3_alvdt")
 theme_override_font_sizes/font_size = 226
 text = "How
@@ -145,34 +160,43 @@ theme_override_font_sizes/font_size = 451
 text = "Next Level"
 
 [node name="Score" type="Label" parent="Menu"]
-layout_mode = 0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.11648988
+anchor_right = 0.3733478
 offset_left = 38.0
 offset_top = 128.0
 offset_right = 632.0
 offset_bottom = 412.0
-scale = Vector2(0.18908957, 0.18908957)
+scale = Vector2(0.1332801, 0.3022033)
 theme_override_fonts/font = ExtResource("3_alvdt")
 theme_override_font_sizes/font_size = 281
 text = "SCORE: "
 metadata/_edit_use_anchors_ = true
 
 [node name="Goal" type="Label" parent="Menu"]
-layout_mode = 0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.115692675
+anchor_top = 0.022298716
+anchor_right = 0.3750443
+anchor_bottom = 0.022298692
 offset_left = 38.0
 offset_top = 181.0
 offset_right = 632.0
 offset_bottom = 465.0
-scale = Vector2(0.18908957, 0.18908957)
+scale = Vector2(0.13582322, 0.29418808)
 theme_override_fonts/font = ExtResource("3_alvdt")
 theme_override_font_sizes/font_size = 281
 text = "Goal: 0"
 metadata/_edit_use_anchors_ = true
 
 [node name="Scoring Area" type="TextureRect" parent="."]
-offset_left = 420.0
-offset_top = 16.0
-offset_right = 1127.0
-offset_bottom = 359.0
+offset_left = -2.0
+offset_top = 798.0
+offset_right = 705.0
+offset_bottom = 1141.0
+scale = Vector2(1.8034707, 1.8034707)
 texture = ExtResource("10_b5qjt")
 metadata/_edit_use_anchors_ = true
 
@@ -187,6 +211,7 @@ theme_override_fonts/font = ExtResource("3_alvdt")
 theme_override_font_sizes/font_size = 96
 text = "Hand Type"
 horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
 
 [node name="Multiplier" type="Label" parent="Scoring Area"]
 layout_mode = 0
@@ -200,6 +225,7 @@ theme_override_font_sizes/font_size = 96
 text = "Multiplier:
 "
 horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
 
 [node name="Roll Amount" type="Label" parent="Scoring Area"]
 layout_mode = 0
@@ -213,13 +239,14 @@ theme_override_font_sizes/font_size = 96
 text = "Roll Amount:
 "
 horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
 
 [node name="Label" type="Label" parent="."]
-offset_left = 48.000004
-offset_top = 64.00001
-offset_right = 2102.0
-offset_bottom = 364.0
-scale = Vector2(0.26576945, 0.26576945)
+offset_left = 375.99997
+offset_top = 55.000008
+offset_right = 2430.0
+offset_bottom = 355.0
+scale = Vector2(0.4878685, 0.4878685)
 theme_override_fonts/font = ExtResource("3_alvdt")
 theme_override_font_sizes/font_size = 296
 text = "Game Title"

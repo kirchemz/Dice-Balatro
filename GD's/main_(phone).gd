@@ -29,7 +29,7 @@ var score_count = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	get_viewport().size = Vector2(1275, 1900)
+	get_viewport().size = Vector2(1275, 1950)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
