@@ -154,7 +154,7 @@ func _process(_delta: float) -> void:
 			rolled_hand = "Hand Type"
 	if played_hand:
 		if score > Globals.goal - 1:
-			Globals.money = snapped(score, 10) / 10
+			Globals.money += snapped(score, 10) / 10
 			played_hand = false
 			$"Menu/Shop Button".visible = true
 			$"Menu/Next Level Button".visible = true
