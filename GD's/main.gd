@@ -26,14 +26,17 @@ var multiplier_display = 1
 var multiplier = 1
 var played_hand = false
 var score_count = false
+var platform
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass
+	platform = OS.get_name()
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta: float) -> void:
+	if platform == "Android" or platform == "iOS":
+		get_tree().change_scene_to_file("res://Scenes/main_(phone).tscn")
 	$Menu/Goal.text = "Goal: " + str(Globals.goal)
 	if rolled_hand == "Straight":
 		straight = true
