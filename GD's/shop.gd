@@ -22,12 +22,13 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta: float) -> void:
-	$"Shop Area/Button".text = "Buy $" + str(Globals.Ones_price)
-	$"Shop Area/Button2".text = "Buy $" + str(Globals.Twos_price)
-	$"Shop Area/Button3".text = "Buy $" + str(Globals.Threes_price)
-	$"Shop Area/Button4".text = "Buy $" + str(Globals.Fours_price)
-	$"Shop Area/Button5".text = "Buy $" + str(Globals.Fives_price)
-	$"Shop Area/Button6".text = "Buy $" + str(Globals.Sixes_price)
+	$"Shop Area/Dice 1/Button".text = "Buy $" + str(Globals.Ones_price)
+	$"Shop Area/Dice 2/Button2".text = "Buy $" + str(Globals.Twos_price)
+	$"Shop Area/Dice 3/Button3".text = "Buy $" + str(Globals.Threes_price)
+	$"Shop Area/Dice 4/Button4".text = "Buy $" + str(Globals.Fours_price)
+	$"Shop Area/Dice 5/Button5".text = "Buy $" + str(Globals.Fives_price)
+	$"Shop Area/Dice 6/Button6".text = "Buy $" + str(Globals.Sixes_price)
+	
 	$"Dice Customization Page/Control/1s/Label".text = str(Globals.Ones)
 	$"Dice Customization Page/Control/2s/Label".text = str(Globals.Twos)
 	$"Dice Customization Page/Control/3s/Label".text = str(Globals.Threes)

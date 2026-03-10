@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://dvd4ygk7rkqm"]
+[gd_scene load_steps=18 format=3 uid="uid://dvd4ygk7rkqm"]
 
 [ext_resource type="Texture2D" uid="uid://c8i2g45i000jt" path="res://Complete_UI_Essential_Pack_Free/Complete_UI_Essential_Pack_Free/01_Flat_Theme/Sprites/UI_Flat_Frame01a.png" id="1_2shtd"]
 [ext_resource type="Script" uid="uid://jcfiqd7hg15a" path="res://GD's/shop.gd" id="1_ow1eo"]
@@ -11,6 +11,10 @@
 [ext_resource type="Texture2D" uid="uid://ddewx11s3i6e6" path="res://Miscellaneous/Screenshot 2026-02-02 160741.png" id="8_1cyt5"]
 [ext_resource type="Texture2D" uid="uid://cm5ykkgknm828" path="res://Miscellaneous/Screenshot 2026-02-02 160757.png" id="9_0vsm1"]
 [ext_resource type="Texture2D" uid="uid://bpm277j6jwaba" path="res://Miscellaneous/Screenshot 2026-02-02 160805.png" id="10_3568l"]
+[ext_resource type="Texture2D" uid="uid://dsv61sf3l1mng" path="res://Miscellaneous/pixil-frame-0 (12).png" id="10_k6pkm"]
+[ext_resource type="Texture2D" uid="uid://mgnsh705hmjl" path="res://Miscellaneous/pixil-frame-0 (13).png" id="11_0vsm1"]
+[ext_resource type="Texture2D" uid="uid://dmgk857ogaubb" path="res://Miscellaneous/pixil-frame-0 (15).png" id="12_3568l"]
+[ext_resource type="Texture2D" uid="uid://dhoo3wn0mhjts" path="res://Miscellaneous/pixil-frame-0 (14).png" id="13_mjtuy"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ow1eo"]
 atlas = ExtResource("5_ow1eo")
@@ -51,7 +55,12 @@ offset_right = 1150.0
 offset_bottom = 649.0
 texture = ExtResource("1_2shtd")
 
-[node name="TextureRect" type="TextureRect" parent="Shop Area"]
+[node name="Dice 1" type="Control" parent="Shop Area"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="Shop Area/Dice 1"]
 layout_mode = 0
 offset_left = 83.0
 offset_top = 69.0
@@ -59,7 +68,7 @@ offset_right = 169.0
 offset_bottom = 155.0
 texture = ExtResource("5_ow1eo")
 
-[node name="Button" type="Button" parent="Shop Area"]
+[node name="Button" type="Button" parent="Shop Area/Dice 1"]
 layout_mode = 0
 offset_left = 54.0
 offset_top = 165.0
@@ -70,7 +79,12 @@ theme_override_fonts/font = ExtResource("3_io27d")
 theme_override_font_sizes/font_size = 251
 text = "Buy $999"
 
-[node name="TextureRect2" type="TextureRect" parent="Shop Area"]
+[node name="Dice 2" type="Control" parent="Shop Area"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect2" type="TextureRect" parent="Shop Area/Dice 2"]
 layout_mode = 0
 offset_left = 259.0
 offset_top = 69.0
@@ -78,7 +92,7 @@ offset_right = 345.0
 offset_bottom = 155.0
 texture = ExtResource("6_k6pkm")
 
-[node name="Button2" type="Button" parent="Shop Area"]
+[node name="Button2" type="Button" parent="Shop Area/Dice 2"]
 layout_mode = 0
 offset_left = 230.0
 offset_top = 165.0
@@ -89,7 +103,12 @@ theme_override_fonts/font = ExtResource("3_io27d")
 theme_override_font_sizes/font_size = 251
 text = "Buy $999"
 
-[node name="TextureRect3" type="TextureRect" parent="Shop Area"]
+[node name="Dice 3" type="Control" parent="Shop Area"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect3" type="TextureRect" parent="Shop Area/Dice 3"]
 layout_mode = 0
 offset_left = 435.0
 offset_top = 69.0
@@ -97,18 +116,23 @@ offset_right = 521.0
 offset_bottom = 155.0
 texture = ExtResource("7_1sjcd")
 
-[node name="Button3" type="Button" parent="Shop Area"]
+[node name="Button3" type="Button" parent="Shop Area/Dice 3"]
 layout_mode = 0
 offset_left = 406.0
 offset_top = 165.0
-offset_right = 1194.0
+offset_right = 1238.0
 offset_bottom = 428.0
 scale = Vector2(0.18074971, 0.18761785)
 theme_override_fonts/font = ExtResource("3_io27d")
 theme_override_font_sizes/font_size = 251
 text = "Buy $999"
 
-[node name="TextureRect4" type="TextureRect" parent="Shop Area"]
+[node name="Dice 4" type="Control" parent="Shop Area"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect4" type="TextureRect" parent="Shop Area/Dice 4"]
 layout_mode = 0
 offset_left = 614.0
 offset_top = 69.0
@@ -116,7 +140,7 @@ offset_right = 700.0
 offset_bottom = 155.0
 texture = ExtResource("8_1cyt5")
 
-[node name="Button4" type="Button" parent="Shop Area"]
+[node name="Button4" type="Button" parent="Shop Area/Dice 4"]
 layout_mode = 0
 offset_left = 583.0
 offset_top = 165.0
@@ -127,7 +151,12 @@ theme_override_fonts/font = ExtResource("3_io27d")
 theme_override_font_sizes/font_size = 251
 text = "Buy $999"
 
-[node name="TextureRect5" type="TextureRect" parent="Shop Area"]
+[node name="Dice 5" type="Control" parent="Shop Area"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect5" type="TextureRect" parent="Shop Area/Dice 5"]
 layout_mode = 0
 offset_left = 83.0
 offset_top = 252.0
@@ -135,7 +164,7 @@ offset_right = 169.0
 offset_bottom = 338.0
 texture = ExtResource("9_0vsm1")
 
-[node name="Button5" type="Button" parent="Shop Area"]
+[node name="Button5" type="Button" parent="Shop Area/Dice 5"]
 layout_mode = 0
 offset_left = 54.0
 offset_top = 348.0
@@ -146,7 +175,12 @@ theme_override_fonts/font = ExtResource("3_io27d")
 theme_override_font_sizes/font_size = 251
 text = "Buy $999"
 
-[node name="TextureRect6" type="TextureRect" parent="Shop Area"]
+[node name="Dice 6" type="Control" parent="Shop Area"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect6" type="TextureRect" parent="Shop Area/Dice 6"]
 layout_mode = 0
 offset_left = 259.0
 offset_top = 252.0
@@ -154,12 +188,108 @@ offset_right = 345.0
 offset_bottom = 338.0
 texture = ExtResource("10_3568l")
 
-[node name="Button6" type="Button" parent="Shop Area"]
+[node name="Button6" type="Button" parent="Shop Area/Dice 6"]
 layout_mode = 0
 offset_left = 230.0
 offset_top = 348.0
 offset_right = 1062.0
 offset_bottom = 611.0
+scale = Vector2(0.18074971, 0.18761785)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 251
+text = "Buy $999"
+
+[node name="Add Mult" type="Control" parent="Shop Area"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect9" type="TextureRect" parent="Shop Area/Add Mult"]
+layout_mode = 0
+offset_left = 83.0
+offset_top = 459.0
+offset_right = 169.0
+offset_bottom = 545.0
+texture = ExtResource("10_k6pkm")
+
+[node name="Button9" type="Button" parent="Shop Area/Add Mult"]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 555.0
+offset_right = 886.0
+offset_bottom = 818.0
+scale = Vector2(0.18074971, 0.18761785)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 251
+text = "Buy $999"
+
+[node name="Multi Mult" type="Control" parent="Shop Area"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect10" type="TextureRect" parent="Shop Area/Multi Mult"]
+layout_mode = 0
+offset_left = 259.0
+offset_top = 459.0
+offset_right = 345.0
+offset_bottom = 545.0
+texture = ExtResource("11_0vsm1")
+
+[node name="Button10" type="Button" parent="Shop Area/Multi Mult"]
+layout_mode = 0
+offset_left = 230.0
+offset_top = 555.0
+offset_right = 1062.0
+offset_bottom = 818.0
+scale = Vector2(0.18074971, 0.18761785)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 251
+text = "Buy $999"
+
+[node name="Addy Add" type="Control" parent="Shop Area"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect11" type="TextureRect" parent="Shop Area/Addy Add"]
+layout_mode = 0
+offset_left = 434.0
+offset_top = 459.0
+offset_right = 520.0
+offset_bottom = 545.0
+texture = ExtResource("12_3568l")
+
+[node name="Button11" type="Button" parent="Shop Area/Addy Add"]
+layout_mode = 0
+offset_left = 405.0
+offset_top = 555.0
+offset_right = 1237.0
+offset_bottom = 818.0
+scale = Vector2(0.18074971, 0.18761785)
+theme_override_fonts/font = ExtResource("3_io27d")
+theme_override_font_sizes/font_size = 251
+text = "Buy $999"
+
+[node name="Multi Add" type="Control" parent="Shop Area"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect12" type="TextureRect" parent="Shop Area/Multi Add"]
+layout_mode = 0
+offset_left = 610.0
+offset_top = 459.0
+offset_right = 696.0
+offset_bottom = 545.0
+texture = ExtResource("13_mjtuy")
+
+[node name="Button12" type="Button" parent="Shop Area/Multi Add"]
+layout_mode = 0
+offset_left = 581.0
+offset_top = 555.0
+offset_right = 1413.0
+offset_bottom = 818.0
 scale = Vector2(0.18074971, 0.18761785)
 theme_override_fonts/font = ExtResource("3_io27d")
 theme_override_font_sizes/font_size = 251
@@ -3116,12 +3246,16 @@ theme_override_fonts/font = ExtResource("3_io27d")
 theme_override_font_sizes/font_size = 321
 text = ": 0"
 
-[connection signal="pressed" from="Shop Area/Button" to="." method="_on_button_pressed"]
-[connection signal="pressed" from="Shop Area/Button2" to="." method="_on_button_2_pressed"]
-[connection signal="pressed" from="Shop Area/Button3" to="." method="_on_button_3_pressed"]
-[connection signal="pressed" from="Shop Area/Button4" to="." method="_on_button_4_pressed"]
-[connection signal="pressed" from="Shop Area/Button5" to="." method="_on_button_5_pressed"]
-[connection signal="pressed" from="Shop Area/Button6" to="." method="_on_button_6_pressed"]
+[connection signal="pressed" from="Shop Area/Dice 1/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Shop Area/Dice 2/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Shop Area/Dice 3/Button3" to="." method="_on_button_3_pressed"]
+[connection signal="pressed" from="Shop Area/Dice 4/Button4" to="." method="_on_button_4_pressed"]
+[connection signal="pressed" from="Shop Area/Dice 5/Button5" to="." method="_on_button_5_pressed"]
+[connection signal="pressed" from="Shop Area/Dice 6/Button6" to="." method="_on_button_6_pressed"]
+[connection signal="pressed" from="Shop Area/Add Mult/Button9" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Shop Area/Multi Mult/Button10" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Shop Area/Addy Add/Button11" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Shop Area/Multi Add/Button12" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Menu/Next Level Button" to="." method="_on_next_level_button_pressed"]
 [connection signal="pressed" from="Menu/Dice Customization Button" to="." method="_on_dice_customization_button_pressed"]
 [connection signal="pressed" from="Hand Requirements Page/Hand Requirement Back Button" to="." method="_on_hand_requirement_back_button_pressed"]

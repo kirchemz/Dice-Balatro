@@ -24,13 +24,15 @@ var Fours_price = 0
 var Fives_price = 0
 var Sixes_price = 0
 
+var multi_mult_price = 10
+
 var dice_one_sides : Array = [1, 2, 3, 4, 5, 6]
 var dice_two_sides : Array = [1, 2, 3, 4, 5, 6]
 var dice_three_sides : Array = [1, 2, 3, 4, 5, 6]
 var dice_four_sides : Array = [1, 2, 3, 4, 5, 6]
 var dice_five_sides : Array = [1, 2, 3, 4, 5, 6]
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	if Ones == 0:
 		Ones_price = 1
 	else:
